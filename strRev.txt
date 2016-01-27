@@ -1,3 +1,6 @@
 ;; string reverse !
 
-DEFINE alp(Alphabet().{>>char[alp z] + 1}), char(Char().[y{!NIL && char(alphabet).y <= 1}]), str(String().[x{!NIL && str >= 1, [char.getMinLength()]}]), loop(Loop(loop.for, loop.while, loop.switch).[loop l{>>!NILL, str(char(alp(z))).hasArg() = NIL}]), args(Argument().[args a{}]);
+DEFINE alp(Alphabet().{>>char[alp z] + 1}), char(Char().[y{!NIL && char(alphabet).y <= 1}]);
+DEFINE str(String().[x{!NIL && str >= 1, [char.getMinLength()]}]);
+DEFINE loop(Loop(loop.for, loop.while, loop.switch).[loop l{>>!NILL, str(char(alp(z))).hasArg() = NIL}]);
+DEFINE args(Argument().[args a{}]);
