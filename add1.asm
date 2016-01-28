@@ -1,4 +1,4 @@
-.data:00000000 2f                               das    
+.data:00000000 2f                               das                         ;del of all comment ;)
 .data:00000001 2a 2a                            sub    ch,BYTE PTR [edx]
 .data:00000003 0d 0a 20 2a 20                   or     eax,0x202a200a
 .data:00000008 40                               inc    eax
