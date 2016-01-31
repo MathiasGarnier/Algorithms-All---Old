@@ -1,0 +1,6 @@
+Différent stade:
+rien -> programme immatériel -> programme qui permet de détecter du texte -> programme qui peermet du texte venant d'un site -> programme qui pemet 
+de comprendre les lettres ->programme qui pemet de comprendre des mots -> programme qui permet de comprendre des phrases -> programme de logique 
+gramaticale -> programme de compréhension écrite fonctionnel -> émulateur de problemes -> programme qui permet de savoir ce qu'a comprit le programme de
+compréhension écrite -> programme de tradcution du programme permetant de savoir ce qu'a comprit le programme de compréhension écritte en language 
+humain -> programme de vérification de sens -> 
