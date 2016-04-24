@@ -22,6 +22,6 @@ int main () {
     int nb_cigarettesFume = NULL;
 
     nb_cigarettesFume = (((nb_cigarettesPaquet / nb_cigarettes) * prixPaquet) * dixAns);
-    printf("Le petit Eric aurait pu economiser %d euros en dix ans.", nb_cigarettesFume); //Resultat : 51128
+    printf("Eric aurait pu economiser %d euros en dix ans.", nb_cigarettesFume); //Resultat : 51128
     return 0;
 }
