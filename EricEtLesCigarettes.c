@@ -9,7 +9,8 @@
 // 3 - 1 - 3 - 1 -- (8) -- 2               nb_jourAnee + 1 -> Année bisextile;
 #define dixAns ((8 * nb_jourAnnee) + (2 * (nb_jourAnnee + 1)))
 
-int main () {
+int main (int argc, const char* argv[]) 
+{
 
     /*
             Pour laisser une part d'anonymat à Jean, nous allons l'appeller Eric.
@@ -22,5 +23,6 @@ int main () {
 
     nb_cigarettesFume = (((nb_cigarettesPaquet / nb_cigarettes) * prixPaquet) * dixAns);
     printf("Eric aurait pu economiser %d euros en dix ans.", nb_cigarettesFume); //Resultat : 51128
+    
     return 0;
 }
