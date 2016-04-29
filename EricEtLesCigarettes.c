@@ -6,7 +6,7 @@
 
 #define nb_jourAnnee 365
 
-// 3 - 1 - 3 - 1 -- (8) -- 2            nb_jourAnee + 1 -> Année bisextile;
+// 3 - 1 - 3 - 1 -- (8) -- 2               nb_jourAnee + 1 -> Année bisextile;
 #define dixAns ((8 * nb_jourAnnee) + (2 * (nb_jourAnnee + 1)))
 
 int main () {
