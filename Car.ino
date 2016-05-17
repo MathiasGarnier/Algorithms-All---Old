@@ -76,7 +76,7 @@ void propulsion(int vitesse) {
 
 #define AVANT (propulsion(PROP_PUISSANCE))
 #define ARRIERE (propulsion(-PROP_PUISSANCE))
-#define ARRET (propulsion(o))
+#define ARRET (propulsion(0))
 
 /* mesure de la distance sur un capteur, en une seule impulsion
  * max : distance maximale
