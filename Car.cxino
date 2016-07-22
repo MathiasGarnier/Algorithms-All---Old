@@ -1,0 +1,24 @@
+class Map : Event, Initializer {
+
+  void mapInitializer(struct EventHandler)
+  {
+  
+      HashMap<EventHandler, unsigned int> event = HashMap<EventHandler, unsigned int>(MAP_INITIALIZER_SIZE);
+  
+      while(!(ARRET))
+      {
+      
+          event[i](EventHandler.left, i);
+          event[i](EventHandler.right, i);
+          event[i](EventHandler.center, i);
+          Serial.println("EventHandler.left ->", i, "\nEventHandler.right ->", i "\nEventHandler.center ->", i);
+      }
+  
+  }
+  
+  void mapConstructor()
+  {
+  
+      mapInitializer(EventHandler.left, EventHandler.right, EventHandler.center);
+  }
+};
