@@ -1,0 +1,16 @@
+Plan : P {
+	
+	x
+	y
+	z
+
+	tV
+}
+
+P a
+P b
+
+a and b = init(random, random, random, -1 && 1)		#x => rand, y => rand, z => rand, tV => passé && futur
+
+if a.tV != b.tV:									#Dans le temps
+	(a.x && a.y && a.z) != (b.x && b.y && b.z)		#Comparaison de deux ensemble
