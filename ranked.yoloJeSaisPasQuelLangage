@@ -1,0 +1,53 @@
+struct Player {
+   
+    int point
+}
+
+boolean aTrouveAdversaire(int point)
+searchPlayerForMatch(int playerPoint)            #Le Joueur tape sa commande
+
+const int moyenne = 10
+
+Player a            # 1010 points
+Player b            # 520 points
+Player c            # 1600 points
+
+boolean Loop = true
+
+while Loop:
+   
+    searchPlayerForMatch(a.point, a)                #Le joueur a cherche un autre joueur pour faire un match
+    #Faire le si a gagne ou perd + appliquer la "formule magique"
+
+
+    if (a.aTrouveAdversaire(a.point)) Loop = false
+
+
+searchPlayerForMatch(int playerPoint, Player p) {
+   
+    for (Player p : Match.getPlayerList()) {
+
+        #Le joueur avec le nombre le plus proche de point sera chosi
+        #Tu fais ton tp dans une arène tout ça tout ça ^^'.
+    }
+}
+
+#    Si un joueur(a) qui a moins de point gagne contre un joueur(b) avec beaucoup de point: a gagne plus de point
+#   alors que si b gagne: b gagne moins de point que contre si il jouait contre un joueur de son niveaux
+#
+#    La formule magique :
+#
+#
+#    Quel que soit le nombre de point de deux joueurs, il existe une proportionnalité en fonction du nombre de
+#    points gagné ou perdu de ces deux joueurs. A savoir :
+#   
+#        (a.point > b.point) => Si a gagne, il gagne 8 points (moyenne - round(a.point / b.point))
+#                            => Si b gagne, il gagne 15 points (if b.point < 600:
+#                            moyenne + (round(b.point / a.point) * 10)
+#                            else:
+#                            moyenne + (round(b.point / a.point) * 4.5))
+#
+
+
+#    Y'aura certainement à un peut changer les fonctions ^^'.
+ 
