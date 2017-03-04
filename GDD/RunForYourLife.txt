@@ -1,0 +1,202 @@
+Minecraft - mini jeux : 
+								"Run For Your Life"
+
+//PAS TOTALEMENT FINIT, IL RESTE DEUX TROIS PETITS TRUCS(beaucoup plus en fait) #ADDING Y'A PAS LONGTEMPS
+//PETIT AJOUT : LES JOUEURS PEUVENT AVOIR DES FACULTES : controller le vent, l'eau, la lave........ YOLO
+
+Le concept du jeux serait de survivre à des évènements (voir : Liste des Events) qui s'éxécuterait chaque x temps. A savoir que x n'est pas constant ! Voir : Fonctionnement du temps entre chaque évènements.
+
+
+Map = 0..4096(x) * 0..4096(y) * 0..256(z);
+La map est une ville abandonnée. Avec autour des montagnes, des lacs
+
+Fonctionnement du temps entre chaque évènements: 
+Sur une partie de x joueurs. Chaque z(temps) - x(nb_joueurs). Z étant le temps entre chaque events. Z est strictement supérieur à x.
+Exemple: 45 secondes de délai entre chaque event et une partie de 12 joueurs, l'event serait chaque (45 - 12)secondes. Donc le maximum de joueur serait 33(dans le cas de x = 45).
+
+Partie de maximum 10 minutes.
+
+Systeme de coffre:
+	//TODO
+
+Liste des Events:
+
+/\ A savoir que chaque Event apporterait son lot de sous Events (Exemple : Guere Atomique > beaucoup plus dur de survivre sans masque à gaz...). /\
+/\ A savoir également que des animations se produiront en plus d'un simple message dans le chat. /\
+/\ Les items pour se protéger des items ne sont obtenables qu'uniquement par l'intermédiare d'un coffre. /\
+|| time(x) = Intervalle entre chaque Event. ||
+|| nombre de coeur max = 20. ||
+|| Traduire les phrases (des messages de mort) en fonction de la Minecraft::LangVersion(). ||
+|| Quelques secondes avant l'éxécution de l'Event, un message dans le chat donnera de petites informations au joueur(lui permettant de survivre plus facilement...) ||
+|| Le même évent ne peut pas s'éffectuer deux fois d'affilé. ||
+	Naturel->
+		Chutes de météorites;
+			Description:
+			Chaque time(x), à un seul et unique endroit de la map, cet endroit est un des 4 cotés de la Map (choisi aléatoirement). Une onde de choc de 60(x) par 60(x) sur 20(z) est formée,
+			un objet sphérique s'est formée au fond du cratère avec des débris tout autour.
+			Nombre de dégats par chute de météorites pris : 16 coeurs (maximum, si un joueur se prend la météorité totalement dessus : il se prendra les 16 dégats, alors qu'un joueur à par
+			exemple 6 blocks à coté se prendra 15 coeurs de dégats...).
+			Taux de chance que ça arrive 2%.
+			Possibilité de contrer : Impossible, à savoir que tout les joueurs étant dans la zone de l'impact perdront plus ou moins de coeur, le nombre de coeur qu'ils se prendront dépendra de
+			leur position dans la zone de l'impact.
+			Effet bonus : A chaque éxécution de cet évènement (à savoir un par partie), chaque joueur étant dans la zone de l'impact se voit offrir un message à son effigie :
+			"A plus sous l'bus %joueur_etant_dans_l_impact% :p."
+			Message de mort (si le joueur meurt suite à cet Event) : "Pas d'chance %player_name% de finir en crepe..."
+		Éruptions volcaniques;
+			Description:
+		Blizzards;
+			Description:
+		Séismes;
+			Description:
+			Chaque time(x), à un endroit de la map(1365(x) * 1365(y) * 1365(z)), grâce à un FallingBlock, tout les blocks présents dans cette région feront un mouvement de vague. A savoir 				également que pour toutes les structures, présentes dans la région affecté par ce séisme, à leur base 1 tnt sera placé aléatoirement dans leur base. Mais dis moi Jammy, 					comment connaître la base de la structure ? C'est très simple grâce à un fichier de configuration, toutes les bases de structures y seront répertoriés, exemple :
+			structure exemple:
+				6, 10, 6, 10, 6;		//x, x, y, y, z -> Un carré de 4 de coté. Si vous avez du mal à comprendre (#TalentDeDessinateur x), ha et aussi j'ai oublié de mettre après
+								//chaque nombre une unité quelconque): http://image.noelshack.com/fichiers/2016/30/1469438561-dx.png .	
+			Nombre de dégat pris par le séisme: 8 coeurs.
+			Taux de chance que ça arrive: 11%.
+			Possibilité de contrer: Impossible.
+			Effet bonus: A chaque éxécution de cet évènement le joueur dans la région ayant était projeté le plus haut se voit offrir un message à son effigie. Le message :
+			"Effet ascenceuuuur pour %player_name% !
+			Message de mort (si le joueur meurt suite à cet Event) : "[-] %player_name% n'a pas résister aux tremblements de terre de Poséidon."
+		Feu de foret;
+			Description:
+			Ne peut s'éffectuer que dans les forets. Un arbre va commencer à bruler et puis (comme un graphe) tout les arbres étant autour vont également se mettre à bruler :
+				a0
+			a3 arbreDeclencheur a1
+				a2			et ainsi de suite...
+			Nombre de dégat par feu de foret pris: aucun mais si vous êtes dans la foret vous brulez(Attention: les potions antiFire ne marchent pas).
+			Taux de chance que ça arrive : 16%
+			Possibilité de contrer: Avec un sceau d'eau.
+			Effet bonus: A chaque éxécution de cet évènement, le joueur ayant le moins de coeur s'étant fait frappé par le feu de foret(si deux joueur ayant le même nombre de coeur et 
+			s'étant fait frappé par le feu de foret alors c'est le joueur ayant son pseudo rangé par ordre alphabétique de façon croissante qui prime) se voit offrir un message à son effigie
+			le message:
+			"Loupé, tu n'as pas le même effet sur le feu que le geai moqueur %player_name% héhé !"
+		Éclairs;
+			Description:
+			Chaque time(x), une multitude (cette multitude vaudra : abs(nb_joueurs.size / 2.0)) d'éclair s'abbattra sur la Map. Le point où se produira les dommages de l'éclair sera
+			totalement aléatoire. L'éclair ne pourra pas rater sa cible. Lorsque l'éclair aura toucher sa cible une onde de choc se répercutera autour du joueur de 3 par 3, se qui créer 
+			un pseudo-cratère sous le joueur. Et qui éteindra toutes les torches et choses ayant un lien avec de la redstone à 10 blocks alentours. Le joueur s'embrase pour 3 secondes.
+			Nombre de dégats par éclair pris : 4 coeurs.
+			Taux de chance que ça arrive : 15%.
+			Possibilité de contrer : un paratonnere(2 utilisations (pas besoin de l'activer, une fois dans l'inventaire si un éclair vient vous frapper -> l'activation est automatique)).
+				Taux de chance d'obtenir l'item dans un coffre : 41%.
+			Effet bonus: A chaque éxécution de cet évènement, un joueur sur le lot de joueur, qui n'a pas était touché par la foudre, dans la partie se voit offir une dédicasse par Thor : 
+			"Thor >> Comment est ce que j'ai pu te rater %player_name% ? ;)"
+			Message de mort (si le joueur meurt suite à cet Event) : "[-] %player_name% a voulu montrer à Thor qu'il maîtrisait mieux la foudre que lui, et bien... on dirait qu'il a perdu !"
+		Eruption solaire;
+			Description:
+			Chaque time(x), x% (x = 15% + Player.size()) de la Map est détruite (sur un seul et uniquement point, définit au hasard et ne pouvant pas être le centre de la map ni un de ses
+			quatres cotés). D'énormes particules de feu dans le ciel pourront se faire voir dans un rayon de 120 blocks. Lors ce que ces particules, étant parti de z(0) + z(138) atteignent 
+			z(floor), tout les blocks dans un rayon de 182/4 sont remplacés par de la lave (uniquement les blocks entre x(floor) et x(floor + 3)). Si un joueur est dans cette zone et réussit
+			à ne pas bruler pour x ou y raison, il se met aussitot à bruler. La fire résistance n'a aucun effet !
+			Nombre de dégats par éruption solaire pris: 18 coeurs.
+			Taux de chance que ça arrive: 2%.
+			Possibilité de contrer: trou noir(1 utilisation(pas besoin de l'activer, une fois dans l'inventaire si une éruption solaire vous frappe -> activation automatique).
+				Taux de chance d'obtenir l'item dans un coffre: 39%
+			Effet bonus: 
+		Annulation du champs de gravité;
+			Description:
+			Chaque time(x), sur toute la Map, la gravité est annulée, on peut "voler" (pas voler directement mais faire des bonds qui nous propulsent à 3 blocks de hauteur à chaque nouveau bond,
+			sans limite de bond, on peut en faire autant que l'on veut. Tout les blocks partent dans n'importe quel sens, ils se mettent à flotter, l'eau et la lave se mettent à prendre de la
+			hauteur et partir dans un peut tout les sens. Attention cet effet ne dure que time(x) - 5 ! Tout les feux s'éteignent et les torches disparaissent.
+			Nombre de dégats par Annulation du champs de gravité pris : 0. 
+			Taux de chance que ça arrive : 6%.
+			Possibilité de contrer : Impossible, faites juste attention à bien retomber sur vos pieds lors ce que cet évènement se termine !
+			Effet bonus: A chaque éxécution de cet évènement, un joueur sur le lot de joueur dans la partie, se voit offrir un message à son effigie : 
+			"Tout est relatif %player_name%, tout est relatif ! ;)"
+			message de mort (si le joueur meurt suit à cet Event) : "[-]La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre, apprends à faire du vélo mdr."
+	Militaire->
+		Pandémie;
+			Description:
+			Chaque time(x), sur toute la Map, chaque joueur se voit mettre son foodLevel à 1 (sur 20), il a également un effet de nausée et witherness I. Et ne peut pas taper les autres joueurs.
+			Taux de chance que ça arrive: 11%.
+			Possibilité de contrer : Boire une potion de heal I ou II, attention les slashs ne marchent pas !
+			Effet bonus: A chaque éxécution de cet évènement, le premier joueur ayant son foodLevel au maximum (si aucun joueur n'y parvient pendant la durée de cet effet l'effet bonus n'aura
+			servi à rien) reçoit un message à son effigie
+			"On ne se débarrasse pas si facilement de toi %player_name% !"
+			message de mort (si le joueur meurt suit à cet Event) : "[-] Le virus a eu raison de %player_name%.
+
+	(EventPercent :
+	15 + 6		 = 21
+	21 + 2		 = 23
+	23 + 2 		 = 25
+	25 + 11 	 = 36
+	36 + 16		 = 52
+	52 + 11		 = 63
+	63 + //A FINIR
+	)
+
+	Attention : Si au bout d'un certains temps (prédéfini), un total de plus de deux joueurs ne sont pas encore mort : ça se jouera à la chance (une illusion que la Map se fait "avaler" par le Soleil, sera faites).
+	
+	Fonctionnement de l'illusion :
+	z	y			La map commencerait par se faire avaler à partir de la droite y w et serait détruite petit à petit (couche 0..256) jusqu'à arriver à la droite x z.
+					Bien sur se ne serait pas un mouvement totalement linéaire.			
+	x	w 				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Les messages #LAWL:
+
+[11:16:16] Yapix_: Yoooop ^^' Chat va^^' ?
+Il faudrait une sorte de mini-jeux apocaliptique, avec des feux de forets, des déferlantes, des séismes et tout... Et le but serait de survivre le plus longtemps possible x) ^^'
+[15:26:10] Longinus [MakeMe Technology]: Yoo
+[15:26:16] Longinus [MakeMe Technology]: Développe?
+[15:29:17] Yapix_: Développe?^^' ?
+[15:39:28] Longinus [MakeMe Technology]: Ton idée
+[15:40:08] Longinus [MakeMe Technology]: J'ai fait un rapport complet du problème avec le framework de TFGnet sinon
+[15:42:45] Yapix_: La développer ^^' ? J'suis encore plus paumé aujourd'hui que d'habitude x).
+Oki ^^' A qui ? x) #PAUME
+[15:42:54 | Modifié (15:42:19)] Longinus [MakeMe Technology]: Développer l'idée
+[15:43:04] Longinus [MakeMe Technology]: L'expliquer
+[15:43:04] Longinus [MakeMe Technology]: xD
+[15:43:58] Yapix_: Haaaa xD
+[15:45:44] Longinus [MakeMe Technology]: http://pastebin.com/Qeit9Ktm
+[15:45:47] Longinus [MakeMe Technology]: x)
+[15:52:48] Yapix_: Genre sur une partie de x joueurs. Chaque y time - x (genre pour 12 joueurs, y étant de base 360(seconde), 360(secondes) - 12(.size -> (int)), au lien d'avoir chaque (exemple:) 360 secondes de délai entre chaque event, l'event serait chaque (360 - Player.size)secondes. Fin tout un délire quoi xD J'sais pas si tu vois. Et ces Events seraient des sortes de catastrophes naturelles ou pas (choisies aléatoirement) genre éruption volcanique, feux de forets, centrale qui explose, des déferlantes, inversion de champs de gravité, séismes, supernovae, éruption solaire..... x)
+[15:53:12] Yapix_: Haaa oki ^^' Comprendo x)
+[15:56:29] Longinus [MakeMe Technology]: Ouais
+[15:56:45] Longinus [MakeMe Technology]: Comme les évenements random dans l'HungerGames d'Epicube
+[15:57:34] Yapix_: Ouaip mais puissance beaucoup plus x). Genre avec de vraies animations... Fin pas de simples effets quoi ^^' Ca pourrait être marrant x)
+[16:00:57] Longinus [MakeMe Technology]: Ouais x)
+[16:02:04] Longinus [MakeMe Technology]: Ouais mais le jeu en lui-même à pars ça, c'est quoi?
+[16:04:26] Yapix_: Du Michael Bay x)
+[16:06:35] Yapix_: Haaa oki x)
+[16:06:47] Yapix_: Un jeux apocaliptique de survie ^^'
+[16:43:00] Longinus [MakeMe Technology]: Ouais d'accord mais le gameplay c'est quoi? x)
+[16:45:59] Yapix_: Être le dernier survivant ^^' ? x)
+[16:46:13 | Modifié (16:45:36)] Longinus [MakeMe Technology]: Ouais faut tuer tout le monde quoi
+[16:47:27] Yapix_: Pas obligé mais on peut x) Fin tu peux gagner sans tuer personne quoi x) Et genre si la partie dure plus 10 minutes, une sorte de DeathMatch serait lancé ^^'
+[16:52:57] Longinus [MakeMe Technology]: Ouais
+[16:53:04] Longinus [MakeMe Technology]: Faut tuer tout le monde donc x)
+[16:55:58] Yapix_: Bha nan, fin pas obligé, genre c'est un jeux de survie, genre avec la gravité tu peux te faire écraser par des bâtiments, tomber dans une faille, genre y'aurait un systeme de bouffe refait... x)
+[16:58:07] Longinus [MakeMe Technology]: Ouais mais si personne ne meurt de manière naturelle? x)
+[17:00:42] Yapix_: Bha de base c'est pas trop prévu que les personnes ne meurent pas x) Mais ouaip ils peuvent se tuer ^^'. Et genre souvent au lien d'avoir des steuffs et tout dans les coffres avoir des trucs chelous genre des bonbonnes d'eau, des masques à oxygene... x)
+[17:01:43] Longinus [MakeMe Technology]: "Bha de base c'est pas trop prévu que les personnes ne meurent pas"
+Tout doit être prévu de base
+[17:01:52] Yapix_: xD
+[17:01:52] Longinus [MakeMe Technology]: :3
+[17:03:19] Yapix_: Bha si ils meurent pas ça part en genre "salade", et y'a des trucs qui explosent de partout, fin c'est plus possible de survivre, et c'est le premier qui mourra qui gagnera ^^'
+[17:05:14] Longinus [MakeMe Technology]: Le premier?
+[17:05:32 | Modifié (17:04:55)] Yapix_: Ha mince : le dernier qui mourra gagnera ^^'
+[17:10:13] Longinus [MakeMe Technology]: L'idée me parait sympa
+
+
+
+
+
+
