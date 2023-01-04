@@ -1,0 +1,192 @@
+\documentclass[12pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage{textcomp}
+\usepackage{scalerel}[2016/12/29]
+\usepackage{unicode-math}
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper}
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+\usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage[french]{babel}
+\usepackage[colorlinks=true]{hyperref}
+\hypersetup{hidelinks=true}
+\usepackage{listings}
+\usepackage{graphicx}
+
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{\vspace{\fill}Mathématiques du quotidien\vspace{\fill}}
+\author{Garnier Mathias}
+\date{2017}
+
+%	\begin{enumerate}[(Question)]			pour creer une question
+%	\item text
+%	\end{enumerate}
+
+%	\begin{center}					math
+%	\fbox{$\forall x \in \mathbb{R}$}
+%	\end{center}
+
+% \fullref{question:Questcequunnombre} 		hyperref
+% \label{exerciceplus:Questcequunnombre}
+
+%	\lstset{language=C++,basicstyle=\footnotesize}
+%	\begin{lstlisting}
+%	CODE EN C++
+%	\end{lstlisting}
+
+%	\includegraphics{nom du fichier} INSERER UNE IMAGE
+
+% POUR LES EXERCICES \subsection{Exercice}
+
+\newcommand*{\fullref}[1]{\hyperref[{#1}]{\autoref*{#1} \nameref*{#1}}}
+
+%	TODO					TODO				TODO
+%
+
+\begin{document}
+\maketitle
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{But de cet ouvrage}
+        \begin{quote}
+           Tous les jours, chacun d'entre nous ou presque utilise une recherche de type google ou bing pour effectuer des recherches dans la grande encyclopédie virtuelle qui nous entoure de manière invisible. Le fait est que évidemment ce sont des algorithmes mathématiques qui vont chercher cet information. Le fait est aussi que tout le monde ou presque a son smartphone, lequel repose aussi sur des questions et des algorithmes mathématiques. Tout cela fait que les gens, dès qu'ils réfléchissent un petit peu comprennent que chaque jour de leur existence ils utilisent des algorithmes mathématiques. Ils sont des utilisateurs quotidiens des Mathématiques. \newline
+           
+            \par \noindent \hfill \emph{Cédric Villani}
+        \end{quote}
+
+La mathématique est omniprésente, que l'on le veuille ou non elle nous anime et nous permet d'être.
+
+ Fondement de l'Univers ou création de l'Homme ?  Quelle est la relation entre l'univers matériel et le monde abstrait des mathématiques ? Qu'est ce que la beauté mathématique ? \newline
+Tant de questions qui méritent d'être posés.
+
+Cet ouvrage ne cherche absolument pas à répondre à ce type de question, mais bien plus simplement et humblement à partager ma vision des mathématiques.
+
+Pour ce faire cet ouvrage sera divisé en deux parties distinctes : 
+\begin{itemize}
+\item la première, développant une théorie axiomatique de représentation de concept littéraire,
+\item et la seconde, présentant les mathématiques par le biais du quotidien.
+\end{itemize}
+
+\newpage
+\section{Définitions}
+$\mathfrak{L}$ représente la classe de tous les objets littéraires. \newline
+$\mathfrak{L}^n$ représente la classe de tous les objets littéraires polymorphiques (de n formes). \newline
+$\mathfrak{T}$ représente, par convention, un objet quelconque de $\mathfrak{L}$. \newline
+$\mathfrak{T}^{-1}$ représente l'inverse de cet objet\footnote{cf. Axiome d'inversement.}. \newline
+$\mathfrak{O} \scaleobj{0.7}{\textlangle} \mathfrak{T} \scaleobj{0.7}{\textrangle} $ représente le \textit{container} de tous les objets $\mathfrak{T}$, on nommera $\mathfrak{O}$ un \textit{groupe de sens}. Attention, ce \textit{groupe de sens} possède des règles de construction et ne peut être utilisé arbitrairement.\newline
+
+$A \symrm{\triangleleft\triangleright} B$ représente l'opérateur alternatif à $\subset$, ces deux opérateurs sont égaux outre le fait que les éléments de $A$ ne possèdent pas forcément le même \textit{sens} au sein de $B$. \newline
+\newpage
+
+\section{Fondements de l'axiomatique de $\mathfrak{L}$}
+
+Voici donc la liste des axiomes : 
+\begin{itemize}
+\item L'axiome d'inversement : \newline
+Par application de l'opérateur inverse sur un objet ($\mathfrak{L}^{-1}$), nous obtenons son concept inverse\footnote{En prennant en paramètre unique le sens de cet objet.}. Il est également possible d'appliquer l'opérateur inverse sur un objet déja inversé($J = \mathfrak{L}^{-1}, J^{-1} = J$) \footnote{En effet $\mathfrak{L}^{-1^{-1}} = \mathfrak{L}^{-1*-1} = \mathfrak{L}^1$. Donc : $\mathfrak{L} \equiv \mathfrak{L}^1 $.}.
+\end{itemize}
+
+
+REGLES CONSTRUCTION D'UN GROUPE DE SENS
+
+\newpage
+\section{Concepts littéraires \textit{mathématisés}}
+\subsection{Le sophisme}
+
+Un sophisme est une argumentation à la logique fallacieuse. C'est un raisonnement qui cherche à paraître rigoureux mais qui n'est en réalité pas valide au sens de la logique (quand bien même sa conclusion serait pourtant la ``vraie''). À la différence du paralogisme, qui est une erreur dans un raisonnement, le sophisme est fallacieux : il est prononcé avec l'intention de tromper l'auditoire afin, par exemple, de prendre l'avantage dans une discussion. Souvent, les sophismes prennent l'apparence d'un syllogisme (qui repose sur des prémisses insuffisantes ou non-pertinentes ou qui procède par enthymème, etc.). \newline
+
+Afin de construire notre objet \textit{``Sophisme''}, partons d'un exemple simple : \newline
+\begin{itemize}
+\item Je ne connais que deux personnes.
+\item C'est deux personnes sont blondes.
+\item Donc toutes les personnes sont blondes.\footnote{Ici cet exemple est clairement à logique fallacieuse.} \newline
+\end{itemize}
+{\large Comment représenter ce \textit{sophisme} de manière mathématique ?}
+
+Considérons deux ensembles $S_{L}$ et $V_{G}$. 
+\begin{equation}
+S_{L} = \{y; \space z\}, \space S_{L} \subset V_{G}
+\end{equation}
+Le fait d'avoir $L$ en indice signifie que cet ensemble est local, c'est à dire déconnecté de tous les autres ensembles. \newline
+Le fait d'avoir $G$ en indice signifie que cet ensemble est global, c'est à dire en relation avec tous les autres ensembles. Par exemple ici $S_{L}$ est inclu dans $V_{G}$.
+
+Définissons un axiome d'inégalité :
+\begin{align} 
+\forall x \in S_{L} \implies & \lnot (x \space = \space y) \implies x \space = \space z \\
+			         & \lnot (x \space = \space z) \implies x \space = \space y
+\end{align}
+On peut généraliser\footnote{En ajoutant le fait qu'il soit possible que $y$ et $z$ soient égaux.} l'axiome d'inégalité afin d'obtenir un principe d'égalité universel à l'intérieur de $S_{L}$ : 
+\begin{equation}
+\forall x \in S_{L}, \space \exists! \space x \implies ((x \space = \space y) \land (x \space = \space z)) \implies y \space = \space z
+\end{equation}
+
+Donc, à l'intérieur de l'ensemble $S_{L}$, quelque soit la valeur de x satisfaisant le principe d'égalité univesel ($x \space = \space y \space = \space z$), l'ensemble $S_{L}$ modélise un sophisme\footnote{En partant du principe que la portée est fallacieuse, sinon ça s'apparente à un syllogisme. De plus, le cardinal de l'ensemble $S_L$ est égal à $2$, ce qui ne permet absolument pas de généraliser une valeur étant donné que $S_L$ est un sous ensemble de $V_G$. \newline Nous venons de construire un objet polymorphique de manière indirecte !}. \newline
+
+Mais il est possible d'aller encore plus loin dans le raisonnement : \newline
+Souvenez vous, nous avions postulé que l'ensemble $S_{L}$ était inclu dans l'ensemble $V_{G}$ (faisant intervenir des notions de localité et globalité d'ensemble). \newline
+Ce qui est vrai à l'intérieur de $S_{L}$ n'est pas forcément vrai à l'intérieur de $V_{G}$.
+\begin{align}
+S_L & \subset V_G \\
+\{y;\space z\} & \subset \{n_{0}; \space n_{1}; \space ...; \space n_{card(V_G)}\}
+\end{align}
+A partir de ce moment, une ambiguïté apparait. Les valeurs contenues dans $S_L$ ont beau appartenir à $V_G$ cela ne signifie pas pour autant que ces valeurs aient le même sens dans les deux ensembles. Afin de remédier à ce problème, nous allons définir un opérateur alternatif à $\subset$ : $\triangleleft\triangleright$
+
+
+Donc, si l'on résume : 
+
+Soit $\mathfrak{T}$ un objet de $\mathfrak{L}^2$, $\mathfrak{T} \subset S_L \subset V_G$.
+\begin{equation}
+s
+\end{equation}
+
+\newpage
+
+\section{Retour au quotidien}
+FAIRE UNE INTRODUCTION, faisant une liaison entre ce début de section et ce qui va suivre.
+Evoquer la puissance des mathématiques et dire qu'elle est tel que l'on la retrouver dans la description du monde qui nous entoure.
+
+\subsection{}
+%Un exemple : échelle de taille Krita construite par le biais d'une échelle logarithmique
+
+\end{document}
