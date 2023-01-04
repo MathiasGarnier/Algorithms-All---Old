@@ -1,0 +1,3844 @@
+__----- TOUR 0 -----__
+
+Nombre de poissons 10 
+Liste des poissons :	Id : 0 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 1 - Sexe : 0 - Race : 0 - Age : 1 -- PV : 9
+	Id : 2 - Sexe : 1 - Race : 5 - Age : 1 -- PV : 9
+	Id : 3 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 1 -- PV : 9
+	Id : 5 - Sexe : 1 - Race : 2 - Age : 1 -- PV : 9
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 1 -- PV : 9
+	Id : 7 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 8 - Sexe : 0 - Race : 0 - Age : 1 -- PV : 9
+	Id : 9 - Sexe : 1 - Race : 3 - Age : 1 -- PV : 9
+
+Nombre d'algues 9 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 5
+	Id : 1 - Age :  0 -- PV : 5
+	Id : 2 - Age :  0 -- PV : 5
+	Id : 3 - Age :  0 -- PV : 6
+	Id : 4 - Age :  0 -- PV : 6
+	Id : 5 - Age :  0 -- PV : 6
+	Id : 6 - Age :  0 -- PV : 6
+	Id : 7 - Age :  0 -- PV : 6
+	Id : 8 - Age :  0 -- PV : 6
+__----- TOUR 1 -----__
+
+Nombre de poissons 10 
+Liste des poissons :	Id : 0 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 1 - Sexe : 0 - Race : 0 - Age : 2 -- PV : 8
+	Id : 2 - Sexe : 1 - Race : 5 - Age : 2 -- PV : 8
+	Id : 3 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 2 -- PV : 8
+	Id : 5 - Sexe : 1 - Race : 2 - Age : 2 -- PV : 8
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 2 -- PV : 8
+	Id : 7 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 8 - Sexe : 0 - Race : 0 - Age : 2 -- PV : 8
+	Id : 9 - Sexe : 1 - Race : 3 - Age : 2 -- PV : 8
+
+Nombre d'algues 9 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 6
+	Id : 1 - Age :  0 -- PV : 6
+	Id : 2 - Age :  0 -- PV : 6
+	Id : 3 - Age :  0 -- PV : 7
+	Id : 4 - Age :  0 -- PV : 7
+	Id : 5 - Age :  0 -- PV : 7
+	Id : 6 - Age :  0 -- PV : 7
+	Id : 7 - Age :  0 -- PV : 7
+	Id : 8 - Age :  0 -- PV : 7
+__----- TOUR 2 -----__
+
+Nombre de poissons 12 
+Liste des poissons :	Id : 0 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 1 - Sexe : 0 - Race : 0 - Age : 3 -- PV : 7
+	Id : 2 - Sexe : 1 - Race : 5 - Age : 3 -- PV : 7
+	Id : 3 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 3 -- PV : 7
+	Id : 5 - Sexe : 1 - Race : 2 - Age : 3 -- PV : 7
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 3 -- PV : 7
+	Id : 7 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 8 - Sexe : 0 - Race : 0 - Age : 3 -- PV : 7
+	Id : 9 - Sexe : 1 - Race : 3 - Age : 3 -- PV : 7
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 9 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 7
+	Id : 1 - Age :  0 -- PV : 7
+	Id : 2 - Age :  0 -- PV : 7
+	Id : 3 - Age :  0 -- PV : 8
+	Id : 4 - Age :  0 -- PV : 8
+	Id : 5 - Age :  0 -- PV : 8
+	Id : 6 - Age :  0 -- PV : 8
+	Id : 7 - Age :  0 -- PV : 8
+	Id : 8 - Age :  0 -- PV : 8
+__----- TOUR 3 -----__
+
+Nombre de poissons 13 
+Liste des poissons :	Id : 0 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 1 - Sexe : 0 - Race : 0 - Age : 4 -- PV : 6
+	Id : 2 - Sexe : 1 - Race : 5 - Age : 4 -- PV : 6
+	Id : 3 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 4 -- PV : 6
+	Id : 5 - Sexe : 1 - Race : 2 - Age : 4 -- PV : 6
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 4 -- PV : 6
+	Id : 7 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 8 - Sexe : 0 - Race : 0 - Age : 4 -- PV : 6
+	Id : 9 - Sexe : 1 - Race : 3 - Age : 4 -- PV : 6
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 12 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 9 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 8
+	Id : 1 - Age :  0 -- PV : 8
+	Id : 2 - Age :  0 -- PV : 8
+	Id : 3 - Age :  0 -- PV : 9
+	Id : 4 - Age :  0 -- PV : 9
+	Id : 5 - Age :  0 -- PV : 9
+	Id : 6 - Age :  0 -- PV : 9
+	Id : 7 - Age :  0 -- PV : 9
+	Id : 8 - Age :  0 -- PV : 9
+__----- TOUR 4 -----__
+
+Nombre de poissons 17 
+Liste des poissons :	Id : 0 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 1
+	Id : 1 - Sexe : 0 - Race : 0 - Age : 5 -- PV : 10
+	Id : 2 - Sexe : 1 - Race : 5 - Age : 5 -- PV : 5
+	Id : 3 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 10
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 5 -- PV : 8
+	Id : 5 - Sexe : 1 - Race : 2 - Age : 5 -- PV : 10
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 5 -- PV : 10
+	Id : 7 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 8 - Sexe : 0 - Race : 0 - Age : 5 -- PV : 1
+	Id : 9 - Sexe : 1 - Race : 3 - Age : 5 -- PV : 4
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 3
+	Id : 12 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 13 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 16 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 21 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 9
+	Id : 1 - Age :  0 -- PV : 9
+	Id : 2 - Age :  0 -- PV : 9
+	Id : 3 - Age :  0 -- PV : 5
+	Id : 4 - Age :  0 -- PV : 5
+	Id : 5 - Age :  0 -- PV : 5
+	Id : 6 - Age :  0 -- PV : 5
+	Id : 7 - Age :  0 -- PV : 3
+	Id : 8 - Age :  0 -- PV : 5
+	Id : 9 - Age :  0 -- PV : 6
+	Id : 10 - Age :  0 -- PV : 6
+	Id : 11 - Age :  0 -- PV : 6
+	Id : 12 - Age :  0 -- PV : 6
+	Id : 13 - Age :  0 -- PV : 6
+	Id : 14 - Age :  0 -- PV : 6
+	Id : 15 - Age :  0 -- PV : 6
+	Id : 16 - Age :  0 -- PV : 6
+	Id : 17 - Age :  0 -- PV : 6
+	Id : 18 - Age :  0 -- PV : 6
+	Id : 19 - Age :  0 -- PV : 4
+	Id : 20 - Age :  0 -- PV : 6
+__----- TOUR 5 -----__
+
+Nombre de poissons 17 
+Liste des poissons :	Id : 1 - Sexe : 0 - Race : 0 - Age : 5 -- PV : 10
+	Id : 2 - Sexe : 1 - Race : 5 - Age : 6 -- PV : 7
+	Id : 3 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 9
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 6 -- PV : 7
+	Id : 5 - Sexe : 1 - Race : 2 - Age : 6 -- PV : 9
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 6 -- PV : 9
+	Id : 7 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 9 - Sexe : 1 - Race : 3 - Age : 5 -- PV : 7
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 2
+	Id : 12 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 13 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 16 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 27 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 5
+	Id : 1 - Age :  0 -- PV : 5
+	Id : 2 - Age :  0 -- PV : 5
+	Id : 3 - Age :  0 -- PV : 6
+	Id : 4 - Age :  0 -- PV : 6
+	Id : 5 - Age :  0 -- PV : 6
+	Id : 6 - Age :  0 -- PV : 6
+	Id : 7 - Age :  0 -- PV : 4
+	Id : 8 - Age :  0 -- PV : 6
+	Id : 9 - Age :  0 -- PV : 7
+	Id : 10 - Age :  0 -- PV : 7
+	Id : 11 - Age :  0 -- PV : 7
+	Id : 12 - Age :  0 -- PV : 7
+	Id : 13 - Age :  0 -- PV : 7
+	Id : 14 - Age :  0 -- PV : 7
+	Id : 15 - Age :  0 -- PV : 7
+	Id : 16 - Age :  0 -- PV : 7
+	Id : 17 - Age :  0 -- PV : 7
+	Id : 18 - Age :  0 -- PV : 7
+	Id : 19 - Age :  0 -- PV : 3
+	Id : 20 - Age :  0 -- PV : 7
+	Id : 21 - Age :  0 -- PV : 4
+	Id : 22 - Age :  0 -- PV : 6
+	Id : 23 - Age :  0 -- PV : 6
+	Id : 24 - Age :  0 -- PV : 6
+	Id : 25 - Age :  0 -- PV : 6
+	Id : 26 - Age :  0 -- PV : 6
+__----- TOUR 6 -----__
+
+Nombre de poissons 17 
+Liste des poissons :	Id : 1 - Sexe : 0 - Race : 0 - Age : 6 -- PV : 9
+	Id : 2 - Sexe : 1 - Race : 5 - Age : 7 -- PV : 2
+	Id : 3 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 8
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 7 -- PV : 6
+	Id : 5 - Sexe : 1 - Race : 2 - Age : 7 -- PV : 8
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 7 -- PV : 4
+	Id : 7 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 9 - Sexe : 1 - Race : 3 - Age : 6 -- PV : 6
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 10
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 6
+	Id : 12 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 13 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 16 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+
+Nombre d'algues 27 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 6
+	Id : 1 - Age :  0 -- PV : 6
+	Id : 2 - Age :  0 -- PV : 6
+	Id : 3 - Age :  0 -- PV : 7
+	Id : 4 - Age :  0 -- PV : 7
+	Id : 5 - Age :  0 -- PV : 7
+	Id : 6 - Age :  0 -- PV : 7
+	Id : 7 - Age :  0 -- PV : 5
+	Id : 8 - Age :  0 -- PV : 7
+	Id : 9 - Age :  0 -- PV : 8
+	Id : 10 - Age :  0 -- PV : 8
+	Id : 11 - Age :  0 -- PV : 8
+	Id : 12 - Age :  0 -- PV : 8
+	Id : 13 - Age :  0 -- PV : 8
+	Id : 14 - Age :  0 -- PV : 8
+	Id : 15 - Age :  0 -- PV : 8
+	Id : 16 - Age :  0 -- PV : 8
+	Id : 17 - Age :  0 -- PV : 8
+	Id : 18 - Age :  0 -- PV : 8
+	Id : 19 - Age :  0 -- PV : 4
+	Id : 20 - Age :  0 -- PV : 8
+	Id : 21 - Age :  0 -- PV : 5
+	Id : 22 - Age :  0 -- PV : 7
+	Id : 23 - Age :  0 -- PV : 7
+	Id : 24 - Age :  0 -- PV : 7
+	Id : 25 - Age :  0 -- PV : 7
+	Id : 26 - Age :  0 -- PV : 7
+__----- TOUR 7 -----__
+
+Nombre de poissons 21 
+Liste des poissons :	Id : 1 - Sexe : 0 - Race : 0 - Age : 7 -- PV : 8
+	Id : 2 - Sexe : 1 - Race : 5 - Age : 8 -- PV : 4
+	Id : 3 - Sexe : 1 - Race : 1 - Age : 8 -- PV : 7
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 8 -- PV : 8
+	Id : 5 - Sexe : 1 - Race : 2 - Age : 8 -- PV : 7
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 8 -- PV : 3
+	Id : 7 - Sexe : 1 - Race : 1 - Age : 8 -- PV : 2
+	Id : 9 - Sexe : 1 - Race : 3 - Age : 7 -- PV : 5
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 9
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 5
+	Id : 12 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 13 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 16 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 17 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 18 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 19 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 27 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 7
+	Id : 1 - Age :  0 -- PV : 7
+	Id : 2 - Age :  0 -- PV : 7
+	Id : 3 - Age :  0 -- PV : 8
+	Id : 4 - Age :  0 -- PV : 8
+	Id : 5 - Age :  0 -- PV : 8
+	Id : 6 - Age :  0 -- PV : 8
+	Id : 7 - Age :  0 -- PV : 6
+	Id : 8 - Age :  0 -- PV : 8
+	Id : 9 - Age :  0 -- PV : 9
+	Id : 10 - Age :  0 -- PV : 9
+	Id : 11 - Age :  0 -- PV : 9
+	Id : 12 - Age :  0 -- PV : 9
+	Id : 13 - Age :  0 -- PV : 9
+	Id : 14 - Age :  0 -- PV : 9
+	Id : 15 - Age :  0 -- PV : 9
+	Id : 16 - Age :  0 -- PV : 9
+	Id : 17 - Age :  0 -- PV : 9
+	Id : 18 - Age :  0 -- PV : 7
+	Id : 19 - Age :  0 -- PV : 5
+	Id : 20 - Age :  0 -- PV : 9
+	Id : 21 - Age :  0 -- PV : 6
+	Id : 22 - Age :  0 -- PV : 8
+	Id : 23 - Age :  0 -- PV : 8
+	Id : 24 - Age :  0 -- PV : 8
+	Id : 25 - Age :  0 -- PV : 8
+	Id : 26 - Age :  0 -- PV : 6
+__----- TOUR 8 -----__
+
+Nombre de poissons 21 
+Liste des poissons :	Id : 1 - Sexe : 0 - Race : 0 - Age : 8 -- PV : 3
+	Id : 2 - Sexe : 1 - Race : 5 - Age : 9 -- PV : 3
+	Id : 3 - Sexe : 1 - Race : 1 - Age : 9 -- PV : 6
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 9 -- PV : 7
+	Id : 5 - Sexe : 1 - Race : 2 - Age : 9 -- PV : 6
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 9 -- PV : 2
+	Id : 7 - Sexe : 1 - Race : 1 - Age : 9 -- PV : 1
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 8
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 9
+	Id : 12 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 13 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 10
+	Id : 16 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 17 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 18 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 19 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 47 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 8
+	Id : 1 - Age :  0 -- PV : 8
+	Id : 2 - Age :  0 -- PV : 8
+	Id : 3 - Age :  0 -- PV : 9
+	Id : 4 - Age :  0 -- PV : 9
+	Id : 5 - Age :  0 -- PV : 9
+	Id : 6 - Age :  0 -- PV : 9
+	Id : 7 - Age :  0 -- PV : 7
+	Id : 8 - Age :  0 -- PV : 9
+	Id : 9 - Age :  0 -- PV : 5
+	Id : 10 - Age :  0 -- PV : 5
+	Id : 11 - Age :  0 -- PV : 5
+	Id : 12 - Age :  0 -- PV : 5
+	Id : 13 - Age :  0 -- PV : 5
+	Id : 14 - Age :  0 -- PV : 5
+	Id : 15 - Age :  0 -- PV : 5
+	Id : 16 - Age :  0 -- PV : 5
+	Id : 17 - Age :  0 -- PV : 5
+	Id : 18 - Age :  0 -- PV : 8
+	Id : 19 - Age :  0 -- PV : 6
+	Id : 20 - Age :  0 -- PV : 5
+	Id : 21 - Age :  0 -- PV : 7
+	Id : 22 - Age :  0 -- PV : 9
+	Id : 23 - Age :  0 -- PV : 9
+	Id : 24 - Age :  0 -- PV : 9
+	Id : 25 - Age :  0 -- PV : 9
+	Id : 26 - Age :  0 -- PV : 7
+	Id : 27 - Age :  0 -- PV : 6
+	Id : 28 - Age :  0 -- PV : 6
+	Id : 29 - Age :  0 -- PV : 6
+	Id : 30 - Age :  0 -- PV : 6
+	Id : 31 - Age :  0 -- PV : 6
+	Id : 32 - Age :  0 -- PV : 6
+	Id : 33 - Age :  0 -- PV : 6
+	Id : 34 - Age :  0 -- PV : 6
+	Id : 35 - Age :  0 -- PV : 6
+	Id : 36 - Age :  0 -- PV : 6
+	Id : 37 - Age :  0 -- PV : 6
+	Id : 38 - Age :  0 -- PV : 6
+	Id : 39 - Age :  0 -- PV : 6
+	Id : 40 - Age :  0 -- PV : 6
+	Id : 41 - Age :  0 -- PV : 6
+	Id : 42 - Age :  0 -- PV : 6
+	Id : 43 - Age :  0 -- PV : 6
+	Id : 44 - Age :  0 -- PV : 6
+	Id : 45 - Age :  0 -- PV : 6
+	Id : 46 - Age :  0 -- PV : 6
+__----- TOUR 9 -----__
+
+Nombre de poissons 22 
+Liste des poissons :	Id : 3 - Sexe : 1 - Race : 1 - Age : 10 -- PV : 5
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 10 -- PV : 6
+	Id : 5 - Sexe : 1 - Race : 2 - Age : 10 -- PV : 1
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 10 -- PV : 6
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 8
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 8 -- PV : 8
+	Id : 12 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 13 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 9
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 9
+	Id : 16 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 10
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 17 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 18 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 19 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 22 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 23 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 65 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 9
+	Id : 1 - Age :  0 -- PV : 9
+	Id : 2 - Age :  0 -- PV : 9
+	Id : 3 - Age :  0 -- PV : 5
+	Id : 4 - Age :  0 -- PV : 5
+	Id : 5 - Age :  0 -- PV : 5
+	Id : 6 - Age :  0 -- PV : 5
+	Id : 7 - Age :  0 -- PV : 8
+	Id : 8 - Age :  0 -- PV : 5
+	Id : 9 - Age :  0 -- PV : 6
+	Id : 10 - Age :  0 -- PV : 6
+	Id : 11 - Age :  0 -- PV : 6
+	Id : 12 - Age :  0 -- PV : 6
+	Id : 13 - Age :  0 -- PV : 6
+	Id : 14 - Age :  0 -- PV : 6
+	Id : 15 - Age :  0 -- PV : 6
+	Id : 16 - Age :  0 -- PV : 6
+	Id : 17 - Age :  0 -- PV : 6
+	Id : 18 - Age :  0 -- PV : 9
+	Id : 19 - Age :  0 -- PV : 7
+	Id : 20 - Age :  0 -- PV : 6
+	Id : 21 - Age :  0 -- PV : 8
+	Id : 22 - Age :  0 -- PV : 5
+	Id : 23 - Age :  0 -- PV : 5
+	Id : 24 - Age :  0 -- PV : 5
+	Id : 25 - Age :  0 -- PV : 5
+	Id : 26 - Age :  0 -- PV : 8
+	Id : 27 - Age :  0 -- PV : 7
+	Id : 28 - Age :  0 -- PV : 7
+	Id : 29 - Age :  0 -- PV : 7
+	Id : 30 - Age :  0 -- PV : 7
+	Id : 31 - Age :  0 -- PV : 7
+	Id : 32 - Age :  0 -- PV : 7
+	Id : 33 - Age :  0 -- PV : 7
+	Id : 34 - Age :  0 -- PV : 7
+	Id : 35 - Age :  0 -- PV : 7
+	Id : 36 - Age :  0 -- PV : 7
+	Id : 37 - Age :  0 -- PV : 7
+	Id : 38 - Age :  0 -- PV : 7
+	Id : 39 - Age :  0 -- PV : 7
+	Id : 40 - Age :  0 -- PV : 7
+	Id : 41 - Age :  0 -- PV : 7
+	Id : 42 - Age :  0 -- PV : 7
+	Id : 43 - Age :  0 -- PV : 7
+	Id : 44 - Age :  0 -- PV : 7
+	Id : 45 - Age :  0 -- PV : 7
+	Id : 46 - Age :  0 -- PV : 7
+	Id : 47 - Age :  0 -- PV : 6
+	Id : 48 - Age :  0 -- PV : 6
+	Id : 49 - Age :  0 -- PV : 6
+	Id : 50 - Age :  0 -- PV : 6
+	Id : 51 - Age :  0 -- PV : 6
+	Id : 52 - Age :  0 -- PV : 6
+	Id : 53 - Age :  0 -- PV : 6
+	Id : 54 - Age :  0 -- PV : 6
+	Id : 55 - Age :  0 -- PV : 6
+	Id : 56 - Age :  0 -- PV : 6
+	Id : 57 - Age :  0 -- PV : 6
+	Id : 58 - Age :  0 -- PV : 6
+	Id : 59 - Age :  0 -- PV : 6
+	Id : 60 - Age :  0 -- PV : 6
+	Id : 61 - Age :  0 -- PV : 6
+	Id : 62 - Age :  0 -- PV : 6
+	Id : 63 - Age :  0 -- PV : 6
+	Id : 64 - Age :  0 -- PV : 6
+__----- TOUR 10 -----__
+
+Nombre de poissons 37 
+Liste des poissons :	Id : 3 - Sexe : 1 - Race : 1 - Age : 11 -- PV : 4
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 11 -- PV : 5
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 10 -- PV : 6
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 8 -- PV : 7
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 9 -- PV : 7
+	Id : 12 - Sexe : 0 - Race : 1 - Age : 8 -- PV : 2
+	Id : 13 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 8
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 8
+	Id : 16 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 9
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 17 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 18 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 19 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 22 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 23 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 21 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 22 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 23 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 24 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 25 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 26 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 27 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 28 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 29 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 30 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 31 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 32 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 33 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 34 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 35 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 36 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 73 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 5
+	Id : 1 - Age :  0 -- PV : 5
+	Id : 2 - Age :  0 -- PV : 5
+	Id : 3 - Age :  0 -- PV : 6
+	Id : 4 - Age :  0 -- PV : 6
+	Id : 5 - Age :  0 -- PV : 6
+	Id : 6 - Age :  0 -- PV : 6
+	Id : 7 - Age :  0 -- PV : 9
+	Id : 8 - Age :  0 -- PV : 6
+	Id : 9 - Age :  0 -- PV : 7
+	Id : 10 - Age :  0 -- PV : 7
+	Id : 11 - Age :  0 -- PV : 7
+	Id : 12 - Age :  0 -- PV : 7
+	Id : 13 - Age :  0 -- PV : 7
+	Id : 14 - Age :  0 -- PV : 7
+	Id : 15 - Age :  0 -- PV : 7
+	Id : 16 - Age :  0 -- PV : 7
+	Id : 17 - Age :  0 -- PV : 7
+	Id : 18 - Age :  0 -- PV : 5
+	Id : 19 - Age :  0 -- PV : 8
+	Id : 20 - Age :  0 -- PV : 7
+	Id : 21 - Age :  0 -- PV : 9
+	Id : 22 - Age :  0 -- PV : 6
+	Id : 23 - Age :  0 -- PV : 6
+	Id : 24 - Age :  0 -- PV : 6
+	Id : 25 - Age :  0 -- PV : 6
+	Id : 26 - Age :  0 -- PV : 9
+	Id : 27 - Age :  0 -- PV : 8
+	Id : 28 - Age :  0 -- PV : 8
+	Id : 29 - Age :  0 -- PV : 8
+	Id : 30 - Age :  0 -- PV : 8
+	Id : 31 - Age :  0 -- PV : 8
+	Id : 32 - Age :  0 -- PV : 8
+	Id : 33 - Age :  0 -- PV : 8
+	Id : 34 - Age :  0 -- PV : 8
+	Id : 35 - Age :  0 -- PV : 8
+	Id : 36 - Age :  0 -- PV : 8
+	Id : 37 - Age :  0 -- PV : 8
+	Id : 38 - Age :  0 -- PV : 8
+	Id : 39 - Age :  0 -- PV : 8
+	Id : 40 - Age :  0 -- PV : 8
+	Id : 41 - Age :  0 -- PV : 8
+	Id : 42 - Age :  0 -- PV : 8
+	Id : 43 - Age :  0 -- PV : 8
+	Id : 44 - Age :  0 -- PV : 8
+	Id : 45 - Age :  0 -- PV : 8
+	Id : 46 - Age :  0 -- PV : 8
+	Id : 47 - Age :  0 -- PV : 7
+	Id : 48 - Age :  0 -- PV : 7
+	Id : 49 - Age :  0 -- PV : 7
+	Id : 50 - Age :  0 -- PV : 7
+	Id : 51 - Age :  0 -- PV : 7
+	Id : 52 - Age :  0 -- PV : 7
+	Id : 53 - Age :  0 -- PV : 7
+	Id : 54 - Age :  0 -- PV : 7
+	Id : 55 - Age :  0 -- PV : 7
+	Id : 56 - Age :  0 -- PV : 7
+	Id : 57 - Age :  0 -- PV : 7
+	Id : 58 - Age :  0 -- PV : 7
+	Id : 59 - Age :  0 -- PV : 7
+	Id : 60 - Age :  0 -- PV : 7
+	Id : 61 - Age :  0 -- PV : 7
+	Id : 62 - Age :  0 -- PV : 7
+	Id : 63 - Age :  0 -- PV : 7
+	Id : 64 - Age :  0 -- PV : 7
+	Id : 65 - Age :  0 -- PV : 6
+	Id : 66 - Age :  0 -- PV : 6
+	Id : 67 - Age :  0 -- PV : 6
+	Id : 68 - Age :  0 -- PV : 6
+	Id : 69 - Age :  0 -- PV : 6
+	Id : 70 - Age :  0 -- PV : 6
+	Id : 71 - Age :  0 -- PV : 6
+	Id : 72 - Age :  0 -- PV : 6
+__----- TOUR 11 -----__
+
+Nombre de poissons 54 
+Liste des poissons :	Id : 3 - Sexe : 1 - Race : 1 - Age : 12 -- PV : 3
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 12 -- PV : 7
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 11 -- PV : 10
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 9 -- PV : 6
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 10 -- PV : 6
+	Id : 12 - Sexe : 0 - Race : 1 - Age : 9 -- PV : 1
+	Id : 13 - Sexe : 0 - Race : 1 - Age : 8 -- PV : 2
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 8 -- PV : 7
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 8 -- PV : 7
+	Id : 16 - Sexe : 1 - Race : 1 - Age : 8 -- PV : 2
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 8
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 17 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 18 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 19 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 3
+	Id : 22 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 23 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 21 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 22 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 23 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 24 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 25 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 26 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 27 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 28 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 29 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 30 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 31 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 32 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 33 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 34 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 35 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 36 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 37 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 38 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 39 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 40 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 41 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 42 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 43 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 44 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 45 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 46 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 47 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 48 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 49 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 50 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 51 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 52 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 53 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 79 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 6
+	Id : 1 - Age :  0 -- PV : 6
+	Id : 2 - Age :  0 -- PV : 6
+	Id : 3 - Age :  0 -- PV : 7
+	Id : 4 - Age :  0 -- PV : 7
+	Id : 5 - Age :  0 -- PV : 7
+	Id : 6 - Age :  0 -- PV : 7
+	Id : 7 - Age :  0 -- PV : 5
+	Id : 8 - Age :  0 -- PV : 7
+	Id : 9 - Age :  0 -- PV : 8
+	Id : 10 - Age :  0 -- PV : 8
+	Id : 11 - Age :  0 -- PV : 8
+	Id : 12 - Age :  0 -- PV : 8
+	Id : 13 - Age :  0 -- PV : 8
+	Id : 14 - Age :  0 -- PV : 8
+	Id : 15 - Age :  0 -- PV : 8
+	Id : 16 - Age :  0 -- PV : 8
+	Id : 17 - Age :  0 -- PV : 8
+	Id : 18 - Age :  0 -- PV : 6
+	Id : 19 - Age :  0 -- PV : 9
+	Id : 20 - Age :  0 -- PV : 8
+	Id : 21 - Age :  0 -- PV : 5
+	Id : 22 - Age :  0 -- PV : 7
+	Id : 23 - Age :  0 -- PV : 7
+	Id : 24 - Age :  0 -- PV : 7
+	Id : 25 - Age :  0 -- PV : 7
+	Id : 26 - Age :  0 -- PV : 5
+	Id : 27 - Age :  0 -- PV : 9
+	Id : 28 - Age :  0 -- PV : 9
+	Id : 29 - Age :  0 -- PV : 9
+	Id : 30 - Age :  0 -- PV : 9
+	Id : 31 - Age :  0 -- PV : 9
+	Id : 32 - Age :  0 -- PV : 9
+	Id : 33 - Age :  0 -- PV : 9
+	Id : 34 - Age :  0 -- PV : 9
+	Id : 35 - Age :  0 -- PV : 9
+	Id : 36 - Age :  0 -- PV : 9
+	Id : 37 - Age :  0 -- PV : 9
+	Id : 38 - Age :  0 -- PV : 9
+	Id : 39 - Age :  0 -- PV : 9
+	Id : 40 - Age :  0 -- PV : 9
+	Id : 41 - Age :  0 -- PV : 9
+	Id : 42 - Age :  0 -- PV : 9
+	Id : 43 - Age :  0 -- PV : 9
+	Id : 44 - Age :  0 -- PV : 9
+	Id : 45 - Age :  0 -- PV : 9
+	Id : 46 - Age :  0 -- PV : 9
+	Id : 47 - Age :  0 -- PV : 8
+	Id : 48 - Age :  0 -- PV : 8
+	Id : 49 - Age :  0 -- PV : 8
+	Id : 50 - Age :  0 -- PV : 8
+	Id : 51 - Age :  0 -- PV : 8
+	Id : 52 - Age :  0 -- PV : 8
+	Id : 53 - Age :  0 -- PV : 8
+	Id : 54 - Age :  0 -- PV : 8
+	Id : 55 - Age :  0 -- PV : 8
+	Id : 56 - Age :  0 -- PV : 8
+	Id : 57 - Age :  0 -- PV : 8
+	Id : 58 - Age :  0 -- PV : 8
+	Id : 59 - Age :  0 -- PV : 8
+	Id : 60 - Age :  0 -- PV : 8
+	Id : 61 - Age :  0 -- PV : 8
+	Id : 62 - Age :  0 -- PV : 6
+	Id : 63 - Age :  0 -- PV : 8
+	Id : 64 - Age :  0 -- PV : 8
+	Id : 65 - Age :  0 -- PV : 7
+	Id : 66 - Age :  0 -- PV : 7
+	Id : 67 - Age :  0 -- PV : 7
+	Id : 68 - Age :  0 -- PV : 7
+	Id : 69 - Age :  0 -- PV : 7
+	Id : 70 - Age :  0 -- PV : 7
+	Id : 71 - Age :  0 -- PV : 7
+	Id : 72 - Age :  0 -- PV : 7
+	Id : 73 - Age :  0 -- PV : 6
+	Id : 74 - Age :  0 -- PV : 6
+	Id : 75 - Age :  0 -- PV : 6
+	Id : 76 - Age :  0 -- PV : 6
+	Id : 77 - Age :  0 -- PV : 6
+	Id : 78 - Age :  0 -- PV : 6
+__----- TOUR 12 -----__
+
+Nombre de poissons 97 
+Liste des poissons :	Id : 3 - Sexe : 1 - Race : 1 - Age : 13 -- PV : 2
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 13 -- PV : 6
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 12 -- PV : 9
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 10 -- PV : 5
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 11 -- PV : 5
+	Id : 13 - Sexe : 0 - Race : 1 - Age : 8 -- PV : 2
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 9 -- PV : 6
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 9 -- PV : 6
+	Id : 16 - Sexe : 1 - Race : 1 - Age : 9 -- PV : 1
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 8 -- PV : 7
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 8 -- PV : 2
+	Id : 17 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 18 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 19 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 2
+	Id : 22 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 23 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 21 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 22 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 23 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 24 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 25 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 26 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 27 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 28 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 29 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 30 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 31 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 32 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 33 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 34 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 35 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 36 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 37 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 38 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 39 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 40 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 41 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 42 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 43 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 44 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 45 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 46 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 47 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 48 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 49 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 50 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 51 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 52 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 53 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 53 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 54 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 55 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 56 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 57 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 58 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 59 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 60 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 61 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 62 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 63 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 64 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 65 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 66 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 67 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 68 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 69 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 70 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 71 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 72 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 73 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 74 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 75 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 76 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 77 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 78 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 79 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 80 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 81 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 82 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 83 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 84 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 85 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 86 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 87 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 88 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 89 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 90 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 91 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 92 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 93 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 94 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 95 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 96 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 121 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 7
+	Id : 1 - Age :  0 -- PV : 7
+	Id : 2 - Age :  0 -- PV : 7
+	Id : 3 - Age :  0 -- PV : 8
+	Id : 4 - Age :  0 -- PV : 8
+	Id : 5 - Age :  0 -- PV : 8
+	Id : 6 - Age :  0 -- PV : 8
+	Id : 7 - Age :  0 -- PV : 6
+	Id : 8 - Age :  0 -- PV : 8
+	Id : 9 - Age :  0 -- PV : 9
+	Id : 10 - Age :  0 -- PV : 9
+	Id : 11 - Age :  0 -- PV : 9
+	Id : 12 - Age :  0 -- PV : 9
+	Id : 13 - Age :  0 -- PV : 9
+	Id : 14 - Age :  0 -- PV : 9
+	Id : 15 - Age :  0 -- PV : 9
+	Id : 16 - Age :  0 -- PV : 9
+	Id : 17 - Age :  0 -- PV : 9
+	Id : 18 - Age :  0 -- PV : 7
+	Id : 19 - Age :  0 -- PV : 5
+	Id : 20 - Age :  0 -- PV : 9
+	Id : 21 - Age :  0 -- PV : 6
+	Id : 22 - Age :  0 -- PV : 8
+	Id : 23 - Age :  0 -- PV : 8
+	Id : 24 - Age :  0 -- PV : 8
+	Id : 25 - Age :  0 -- PV : 8
+	Id : 26 - Age :  0 -- PV : 6
+	Id : 27 - Age :  0 -- PV : 5
+	Id : 28 - Age :  0 -- PV : 5
+	Id : 29 - Age :  0 -- PV : 5
+	Id : 30 - Age :  0 -- PV : 5
+	Id : 31 - Age :  0 -- PV : 5
+	Id : 32 - Age :  0 -- PV : 5
+	Id : 33 - Age :  0 -- PV : 5
+	Id : 34 - Age :  0 -- PV : 5
+	Id : 35 - Age :  0 -- PV : 5
+	Id : 36 - Age :  0 -- PV : 5
+	Id : 37 - Age :  0 -- PV : 5
+	Id : 38 - Age :  0 -- PV : 5
+	Id : 39 - Age :  0 -- PV : 5
+	Id : 40 - Age :  0 -- PV : 5
+	Id : 41 - Age :  0 -- PV : 5
+	Id : 42 - Age :  0 -- PV : 5
+	Id : 43 - Age :  0 -- PV : 5
+	Id : 44 - Age :  0 -- PV : 5
+	Id : 45 - Age :  0 -- PV : 5
+	Id : 46 - Age :  0 -- PV : 5
+	Id : 47 - Age :  0 -- PV : 9
+	Id : 48 - Age :  0 -- PV : 9
+	Id : 49 - Age :  0 -- PV : 9
+	Id : 50 - Age :  0 -- PV : 9
+	Id : 51 - Age :  0 -- PV : 9
+	Id : 52 - Age :  0 -- PV : 9
+	Id : 53 - Age :  0 -- PV : 9
+	Id : 54 - Age :  0 -- PV : 9
+	Id : 55 - Age :  0 -- PV : 9
+	Id : 56 - Age :  0 -- PV : 9
+	Id : 57 - Age :  0 -- PV : 9
+	Id : 58 - Age :  0 -- PV : 9
+	Id : 59 - Age :  0 -- PV : 9
+	Id : 60 - Age :  0 -- PV : 9
+	Id : 61 - Age :  0 -- PV : 9
+	Id : 62 - Age :  0 -- PV : 7
+	Id : 63 - Age :  0 -- PV : 9
+	Id : 64 - Age :  0 -- PV : 9
+	Id : 65 - Age :  0 -- PV : 8
+	Id : 66 - Age :  0 -- PV : 8
+	Id : 67 - Age :  0 -- PV : 8
+	Id : 68 - Age :  0 -- PV : 8
+	Id : 69 - Age :  0 -- PV : 8
+	Id : 70 - Age :  0 -- PV : 8
+	Id : 71 - Age :  0 -- PV : 8
+	Id : 72 - Age :  0 -- PV : 8
+	Id : 73 - Age :  0 -- PV : 7
+	Id : 74 - Age :  0 -- PV : 7
+	Id : 75 - Age :  0 -- PV : 7
+	Id : 76 - Age :  0 -- PV : 7
+	Id : 77 - Age :  0 -- PV : 7
+	Id : 78 - Age :  0 -- PV : 7
+	Id : 79 - Age :  0 -- PV : 6
+	Id : 80 - Age :  0 -- PV : 6
+	Id : 81 - Age :  0 -- PV : 6
+	Id : 82 - Age :  0 -- PV : 6
+	Id : 83 - Age :  0 -- PV : 6
+	Id : 84 - Age :  0 -- PV : 6
+	Id : 85 - Age :  0 -- PV : 6
+	Id : 86 - Age :  0 -- PV : 6
+	Id : 87 - Age :  0 -- PV : 6
+	Id : 88 - Age :  0 -- PV : 6
+	Id : 89 - Age :  0 -- PV : 6
+	Id : 90 - Age :  0 -- PV : 6
+	Id : 91 - Age :  0 -- PV : 6
+	Id : 92 - Age :  0 -- PV : 6
+	Id : 93 - Age :  0 -- PV : 6
+	Id : 94 - Age :  0 -- PV : 6
+	Id : 95 - Age :  0 -- PV : 6
+	Id : 96 - Age :  0 -- PV : 6
+	Id : 97 - Age :  0 -- PV : 6
+	Id : 98 - Age :  0 -- PV : 6
+	Id : 99 - Age :  0 -- PV : 6
+	Id : 100 - Age :  0 -- PV : 6
+	Id : 101 - Age :  0 -- PV : 6
+	Id : 102 - Age :  0 -- PV : 6
+	Id : 103 - Age :  0 -- PV : 6
+	Id : 104 - Age :  0 -- PV : 6
+	Id : 105 - Age :  0 -- PV : 6
+	Id : 106 - Age :  0 -- PV : 6
+	Id : 107 - Age :  0 -- PV : 6
+	Id : 108 - Age :  0 -- PV : 6
+	Id : 109 - Age :  0 -- PV : 6
+	Id : 110 - Age :  0 -- PV : 6
+	Id : 111 - Age :  0 -- PV : 6
+	Id : 112 - Age :  0 -- PV : 6
+	Id : 113 - Age :  0 -- PV : 6
+	Id : 114 - Age :  0 -- PV : 6
+	Id : 115 - Age :  0 -- PV : 6
+	Id : 116 - Age :  0 -- PV : 6
+	Id : 117 - Age :  0 -- PV : 6
+	Id : 118 - Age :  0 -- PV : 6
+	Id : 119 - Age :  0 -- PV : 6
+	Id : 120 - Age :  0 -- PV : 6
+__----- TOUR 13 -----__
+
+Nombre de poissons 172 
+Liste des poissons :	Id : 3 - Sexe : 1 - Race : 1 - Age : 14 -- PV : 1
+	Id : 4 - Sexe : 1 - Race : 5 - Age : 14 -- PV : 5
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 13 -- PV : 8
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 11 -- PV : 4
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 12 -- PV : 4
+	Id : 13 - Sexe : 0 - Race : 1 - Age : 9 -- PV : 1
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 10 -- PV : 5
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 10 -- PV : 5
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 8 -- PV : 7
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 9 -- PV : 1
+	Id : 17 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 18 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 19 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 1
+	Id : 22 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 23 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 21 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 22 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 23 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 24 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 25 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 26 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 27 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 28 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 29 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 30 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 31 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 32 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 33 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 34 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 35 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 36 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 37 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 38 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 39 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 40 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 41 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 42 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 43 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 44 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 45 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 46 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 47 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 48 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 49 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 50 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 51 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 52 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 53 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 53 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 54 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 55 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 56 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 57 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 58 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 59 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 60 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 61 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 62 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 63 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 64 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 65 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 66 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 67 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 68 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 69 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 70 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 71 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 72 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 73 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 74 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 75 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 76 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 77 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 78 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 79 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 80 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 81 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 82 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 83 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 84 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 85 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 86 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 87 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 88 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 89 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 90 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 91 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 92 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 93 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 94 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 95 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 96 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 96 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 97 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 98 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 99 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 100 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 101 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 102 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 103 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 104 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 105 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 106 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 107 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 108 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 109 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 110 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 111 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 112 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 113 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 114 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 115 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 116 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 117 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 118 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 119 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 120 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 121 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 122 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 123 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 124 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 125 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 126 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 127 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 128 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 129 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 130 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 131 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 132 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 133 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 134 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 135 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 136 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 137 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 138 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 139 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 140 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 141 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 142 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 143 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 144 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 145 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 146 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 147 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 148 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 149 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 150 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 151 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 152 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 153 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 154 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 155 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 156 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 157 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 158 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 159 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 160 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 161 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 162 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 163 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 164 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 165 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 166 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 167 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 168 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 169 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 170 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 171 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 175 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 8
+	Id : 1 - Age :  0 -- PV : 8
+	Id : 2 - Age :  0 -- PV : 8
+	Id : 3 - Age :  0 -- PV : 9
+	Id : 4 - Age :  0 -- PV : 9
+	Id : 5 - Age :  0 -- PV : 9
+	Id : 6 - Age :  0 -- PV : 9
+	Id : 7 - Age :  0 -- PV : 7
+	Id : 8 - Age :  0 -- PV : 9
+	Id : 9 - Age :  0 -- PV : 5
+	Id : 10 - Age :  0 -- PV : 5
+	Id : 11 - Age :  0 -- PV : 5
+	Id : 12 - Age :  0 -- PV : 5
+	Id : 13 - Age :  0 -- PV : 5
+	Id : 14 - Age :  0 -- PV : 5
+	Id : 15 - Age :  0 -- PV : 5
+	Id : 16 - Age :  0 -- PV : 5
+	Id : 17 - Age :  0 -- PV : 5
+	Id : 18 - Age :  0 -- PV : 8
+	Id : 19 - Age :  0 -- PV : 6
+	Id : 20 - Age :  0 -- PV : 5
+	Id : 21 - Age :  0 -- PV : 7
+	Id : 22 - Age :  0 -- PV : 9
+	Id : 23 - Age :  0 -- PV : 9
+	Id : 24 - Age :  0 -- PV : 9
+	Id : 25 - Age :  0 -- PV : 9
+	Id : 26 - Age :  0 -- PV : 7
+	Id : 27 - Age :  0 -- PV : 6
+	Id : 28 - Age :  0 -- PV : 6
+	Id : 29 - Age :  0 -- PV : 6
+	Id : 30 - Age :  0 -- PV : 6
+	Id : 31 - Age :  0 -- PV : 6
+	Id : 32 - Age :  0 -- PV : 6
+	Id : 33 - Age :  0 -- PV : 6
+	Id : 34 - Age :  0 -- PV : 6
+	Id : 35 - Age :  0 -- PV : 6
+	Id : 36 - Age :  0 -- PV : 6
+	Id : 37 - Age :  0 -- PV : 6
+	Id : 38 - Age :  0 -- PV : 6
+	Id : 39 - Age :  0 -- PV : 6
+	Id : 40 - Age :  0 -- PV : 6
+	Id : 41 - Age :  0 -- PV : 6
+	Id : 42 - Age :  0 -- PV : 6
+	Id : 43 - Age :  0 -- PV : 6
+	Id : 44 - Age :  0 -- PV : 6
+	Id : 45 - Age :  0 -- PV : 6
+	Id : 46 - Age :  0 -- PV : 6
+	Id : 47 - Age :  0 -- PV : 5
+	Id : 48 - Age :  0 -- PV : 5
+	Id : 49 - Age :  0 -- PV : 5
+	Id : 50 - Age :  0 -- PV : 5
+	Id : 51 - Age :  0 -- PV : 5
+	Id : 52 - Age :  0 -- PV : 5
+	Id : 53 - Age :  0 -- PV : 5
+	Id : 54 - Age :  0 -- PV : 5
+	Id : 55 - Age :  0 -- PV : 5
+	Id : 56 - Age :  0 -- PV : 5
+	Id : 57 - Age :  0 -- PV : 5
+	Id : 58 - Age :  0 -- PV : 5
+	Id : 59 - Age :  0 -- PV : 5
+	Id : 60 - Age :  0 -- PV : 5
+	Id : 61 - Age :  0 -- PV : 5
+	Id : 62 - Age :  0 -- PV : 8
+	Id : 63 - Age :  0 -- PV : 5
+	Id : 64 - Age :  0 -- PV : 5
+	Id : 65 - Age :  0 -- PV : 9
+	Id : 66 - Age :  0 -- PV : 9
+	Id : 67 - Age :  0 -- PV : 9
+	Id : 68 - Age :  0 -- PV : 9
+	Id : 69 - Age :  0 -- PV : 9
+	Id : 70 - Age :  0 -- PV : 9
+	Id : 71 - Age :  0 -- PV : 9
+	Id : 72 - Age :  0 -- PV : 9
+	Id : 73 - Age :  0 -- PV : 8
+	Id : 74 - Age :  0 -- PV : 8
+	Id : 75 - Age :  0 -- PV : 8
+	Id : 76 - Age :  0 -- PV : 8
+	Id : 77 - Age :  0 -- PV : 8
+	Id : 78 - Age :  0 -- PV : 8
+	Id : 79 - Age :  0 -- PV : 7
+	Id : 80 - Age :  0 -- PV : 7
+	Id : 81 - Age :  0 -- PV : 7
+	Id : 82 - Age :  0 -- PV : 7
+	Id : 83 - Age :  0 -- PV : 7
+	Id : 84 - Age :  0 -- PV : 7
+	Id : 85 - Age :  0 -- PV : 7
+	Id : 86 - Age :  0 -- PV : 7
+	Id : 87 - Age :  0 -- PV : 7
+	Id : 88 - Age :  0 -- PV : 7
+	Id : 89 - Age :  0 -- PV : 7
+	Id : 90 - Age :  0 -- PV : 7
+	Id : 91 - Age :  0 -- PV : 7
+	Id : 92 - Age :  0 -- PV : 7
+	Id : 93 - Age :  0 -- PV : 7
+	Id : 94 - Age :  0 -- PV : 7
+	Id : 95 - Age :  0 -- PV : 7
+	Id : 96 - Age :  0 -- PV : 7
+	Id : 97 - Age :  0 -- PV : 7
+	Id : 98 - Age :  0 -- PV : 7
+	Id : 99 - Age :  0 -- PV : 7
+	Id : 100 - Age :  0 -- PV : 7
+	Id : 101 - Age :  0 -- PV : 7
+	Id : 102 - Age :  0 -- PV : 7
+	Id : 103 - Age :  0 -- PV : 7
+	Id : 104 - Age :  0 -- PV : 7
+	Id : 105 - Age :  0 -- PV : 7
+	Id : 106 - Age :  0 -- PV : 7
+	Id : 107 - Age :  0 -- PV : 7
+	Id : 108 - Age :  0 -- PV : 7
+	Id : 109 - Age :  0 -- PV : 7
+	Id : 110 - Age :  0 -- PV : 7
+	Id : 111 - Age :  0 -- PV : 7
+	Id : 112 - Age :  0 -- PV : 7
+	Id : 113 - Age :  0 -- PV : 7
+	Id : 114 - Age :  0 -- PV : 7
+	Id : 115 - Age :  0 -- PV : 7
+	Id : 116 - Age :  0 -- PV : 7
+	Id : 117 - Age :  0 -- PV : 7
+	Id : 118 - Age :  0 -- PV : 7
+	Id : 119 - Age :  0 -- PV : 7
+	Id : 120 - Age :  0 -- PV : 7
+	Id : 121 - Age :  0 -- PV : 6
+	Id : 122 - Age :  0 -- PV : 6
+	Id : 123 - Age :  0 -- PV : 6
+	Id : 124 - Age :  0 -- PV : 6
+	Id : 125 - Age :  0 -- PV : 6
+	Id : 126 - Age :  0 -- PV : 6
+	Id : 127 - Age :  0 -- PV : 6
+	Id : 128 - Age :  0 -- PV : 6
+	Id : 129 - Age :  0 -- PV : 6
+	Id : 130 - Age :  0 -- PV : 6
+	Id : 131 - Age :  0 -- PV : 6
+	Id : 132 - Age :  0 -- PV : 6
+	Id : 133 - Age :  0 -- PV : 6
+	Id : 134 - Age :  0 -- PV : 6
+	Id : 135 - Age :  0 -- PV : 6
+	Id : 136 - Age :  0 -- PV : 6
+	Id : 137 - Age :  0 -- PV : 6
+	Id : 138 - Age :  0 -- PV : 6
+	Id : 139 - Age :  0 -- PV : 6
+	Id : 140 - Age :  0 -- PV : 6
+	Id : 141 - Age :  0 -- PV : 6
+	Id : 142 - Age :  0 -- PV : 6
+	Id : 143 - Age :  0 -- PV : 6
+	Id : 144 - Age :  0 -- PV : 6
+	Id : 145 - Age :  0 -- PV : 6
+	Id : 146 - Age :  0 -- PV : 6
+	Id : 147 - Age :  0 -- PV : 6
+	Id : 148 - Age :  0 -- PV : 6
+	Id : 149 - Age :  0 -- PV : 6
+	Id : 150 - Age :  0 -- PV : 6
+	Id : 151 - Age :  0 -- PV : 6
+	Id : 152 - Age :  0 -- PV : 6
+	Id : 153 - Age :  0 -- PV : 6
+	Id : 154 - Age :  0 -- PV : 6
+	Id : 155 - Age :  0 -- PV : 6
+	Id : 156 - Age :  0 -- PV : 6
+	Id : 157 - Age :  0 -- PV : 6
+	Id : 158 - Age :  0 -- PV : 6
+	Id : 159 - Age :  0 -- PV : 6
+	Id : 160 - Age :  0 -- PV : 6
+	Id : 161 - Age :  0 -- PV : 6
+	Id : 162 - Age :  0 -- PV : 6
+	Id : 163 - Age :  0 -- PV : 6
+	Id : 164 - Age :  0 -- PV : 6
+	Id : 165 - Age :  0 -- PV : 6
+	Id : 166 - Age :  0 -- PV : 6
+	Id : 167 - Age :  0 -- PV : 6
+	Id : 168 - Age :  0 -- PV : 6
+	Id : 169 - Age :  0 -- PV : 6
+	Id : 170 - Age :  0 -- PV : 6
+	Id : 171 - Age :  0 -- PV : 6
+	Id : 172 - Age :  0 -- PV : 6
+	Id : 173 - Age :  0 -- PV : 6
+	Id : 174 - Age :  0 -- PV : 6
+__----- TOUR 14 -----__
+
+Nombre de poissons 289 
+Liste des poissons :	Id : 4 - Sexe : 1 - Race : 5 - Age : 14 -- PV : 8
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 14 -- PV : 7
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 12 -- PV : 3
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 13 -- PV : 3
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 10 -- PV : 5
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 11 -- PV : 4
+	Id : 16 - Sexe : 0 - Race : 1 - Age : 10 -- PV : 0
+	Id : 17 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 18 - Sexe : 0 - Race : 1 - Age : 8 -- PV : 2
+	Id : 19 - Sexe : 1 - Race : 1 - Age : 8 -- PV : 2
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 8 -- PV : 2
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 21 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 0
+	Id : 22 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 23 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 21 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 22 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 23 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 24 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 25 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 26 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 27 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 28 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 29 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 30 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 31 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 32 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 33 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 34 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 35 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 36 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 37 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 38 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 39 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 40 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 41 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 42 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 43 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 44 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 45 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 46 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 47 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 48 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 49 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 50 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 51 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 52 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 53 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 53 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 54 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 55 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 56 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 57 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 58 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 59 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 60 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 61 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 62 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 63 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 64 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 65 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 66 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 67 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 68 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 69 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 70 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 71 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 72 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 73 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 74 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 75 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 76 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 77 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 78 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 79 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 80 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 81 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 82 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 83 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 84 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 85 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 86 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 87 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 88 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 89 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 90 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 91 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 92 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 93 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 94 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 95 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 96 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 96 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 97 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 98 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 99 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 100 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 101 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 102 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 103 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 104 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 105 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 106 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 107 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 108 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 109 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 110 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 111 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 112 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 113 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 114 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 115 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 116 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 117 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 118 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 119 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 120 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 121 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 122 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 123 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 124 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 125 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 126 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 127 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 128 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 129 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 130 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 131 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 132 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 133 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 134 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 135 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 136 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 137 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 138 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 139 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 140 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 141 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 142 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 143 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 144 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 145 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 146 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 147 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 148 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 149 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 150 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 151 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 152 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 153 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 154 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 155 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 156 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 157 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 158 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 159 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 160 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 161 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 162 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 163 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 164 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 165 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 166 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 167 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 168 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 169 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 170 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 171 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 170 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 169 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 170 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 171 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 172 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 173 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 174 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 175 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 176 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 177 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 178 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 179 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 180 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 181 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 182 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 183 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 184 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 185 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 186 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 187 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 188 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 189 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 190 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 191 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 192 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 193 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 194 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 195 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 196 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 197 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 198 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 199 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 200 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 201 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 202 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 203 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 204 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 205 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 206 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 207 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 208 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 209 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 210 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 211 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 212 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 213 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 214 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 215 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 216 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 217 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 218 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 219 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 220 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 221 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 222 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 223 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 224 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 225 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 226 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 227 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 228 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 229 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 230 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 231 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 232 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 233 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 234 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 235 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 236 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 237 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 238 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 239 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 240 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 241 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 242 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 243 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 244 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 245 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 246 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 247 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 248 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 249 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 250 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 251 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 252 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 253 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 254 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 255 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 256 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 257 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 258 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 259 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 260 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 261 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 262 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 263 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 264 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 265 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 266 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 267 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 268 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 269 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 270 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 271 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 272 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 273 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 274 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 275 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 276 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 277 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 278 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 279 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 280 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 281 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 282 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 283 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 284 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 285 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 286 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 287 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 288 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 209 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 9
+	Id : 1 - Age :  0 -- PV : 9
+	Id : 2 - Age :  0 -- PV : 9
+	Id : 3 - Age :  0 -- PV : 5
+	Id : 4 - Age :  0 -- PV : 5
+	Id : 5 - Age :  0 -- PV : 5
+	Id : 6 - Age :  0 -- PV : 5
+	Id : 7 - Age :  0 -- PV : 8
+	Id : 8 - Age :  0 -- PV : 5
+	Id : 9 - Age :  0 -- PV : 6
+	Id : 10 - Age :  0 -- PV : 6
+	Id : 11 - Age :  0 -- PV : 6
+	Id : 12 - Age :  0 -- PV : 6
+	Id : 13 - Age :  0 -- PV : 6
+	Id : 14 - Age :  0 -- PV : 6
+	Id : 15 - Age :  0 -- PV : 6
+	Id : 16 - Age :  0 -- PV : 6
+	Id : 17 - Age :  0 -- PV : 6
+	Id : 18 - Age :  0 -- PV : 9
+	Id : 19 - Age :  0 -- PV : 7
+	Id : 20 - Age :  0 -- PV : 6
+	Id : 21 - Age :  0 -- PV : 8
+	Id : 22 - Age :  0 -- PV : 5
+	Id : 23 - Age :  0 -- PV : 5
+	Id : 24 - Age :  0 -- PV : 5
+	Id : 25 - Age :  0 -- PV : 5
+	Id : 26 - Age :  0 -- PV : 8
+	Id : 27 - Age :  0 -- PV : 7
+	Id : 28 - Age :  0 -- PV : 7
+	Id : 29 - Age :  0 -- PV : 7
+	Id : 30 - Age :  0 -- PV : 7
+	Id : 31 - Age :  0 -- PV : 7
+	Id : 32 - Age :  0 -- PV : 7
+	Id : 33 - Age :  0 -- PV : 7
+	Id : 34 - Age :  0 -- PV : 7
+	Id : 35 - Age :  0 -- PV : 7
+	Id : 36 - Age :  0 -- PV : 7
+	Id : 37 - Age :  0 -- PV : 7
+	Id : 38 - Age :  0 -- PV : 7
+	Id : 39 - Age :  0 -- PV : 7
+	Id : 40 - Age :  0 -- PV : 7
+	Id : 41 - Age :  0 -- PV : 7
+	Id : 42 - Age :  0 -- PV : 7
+	Id : 43 - Age :  0 -- PV : 7
+	Id : 44 - Age :  0 -- PV : 7
+	Id : 45 - Age :  0 -- PV : 7
+	Id : 46 - Age :  0 -- PV : 7
+	Id : 47 - Age :  0 -- PV : 6
+	Id : 48 - Age :  0 -- PV : 6
+	Id : 49 - Age :  0 -- PV : 6
+	Id : 50 - Age :  0 -- PV : 6
+	Id : 51 - Age :  0 -- PV : 6
+	Id : 52 - Age :  0 -- PV : 6
+	Id : 53 - Age :  0 -- PV : 6
+	Id : 54 - Age :  0 -- PV : 6
+	Id : 55 - Age :  0 -- PV : 6
+	Id : 56 - Age :  0 -- PV : 6
+	Id : 57 - Age :  0 -- PV : 6
+	Id : 58 - Age :  0 -- PV : 6
+	Id : 59 - Age :  0 -- PV : 6
+	Id : 60 - Age :  0 -- PV : 6
+	Id : 61 - Age :  0 -- PV : 6
+	Id : 62 - Age :  0 -- PV : 9
+	Id : 63 - Age :  0 -- PV : 6
+	Id : 64 - Age :  0 -- PV : 6
+	Id : 65 - Age :  0 -- PV : 5
+	Id : 66 - Age :  0 -- PV : 5
+	Id : 67 - Age :  0 -- PV : 5
+	Id : 68 - Age :  0 -- PV : 5
+	Id : 69 - Age :  0 -- PV : 5
+	Id : 70 - Age :  0 -- PV : 5
+	Id : 71 - Age :  0 -- PV : 5
+	Id : 72 - Age :  0 -- PV : 5
+	Id : 73 - Age :  0 -- PV : 9
+	Id : 74 - Age :  0 -- PV : 9
+	Id : 75 - Age :  0 -- PV : 9
+	Id : 76 - Age :  0 -- PV : 9
+	Id : 77 - Age :  0 -- PV : 9
+	Id : 78 - Age :  0 -- PV : 9
+	Id : 79 - Age :  0 -- PV : 8
+	Id : 80 - Age :  0 -- PV : 8
+	Id : 81 - Age :  0 -- PV : 8
+	Id : 82 - Age :  0 -- PV : 8
+	Id : 83 - Age :  0 -- PV : 8
+	Id : 84 - Age :  0 -- PV : 8
+	Id : 85 - Age :  0 -- PV : 8
+	Id : 86 - Age :  0 -- PV : 8
+	Id : 87 - Age :  0 -- PV : 8
+	Id : 88 - Age :  0 -- PV : 8
+	Id : 89 - Age :  0 -- PV : 8
+	Id : 90 - Age :  0 -- PV : 8
+	Id : 91 - Age :  0 -- PV : 8
+	Id : 92 - Age :  0 -- PV : 8
+	Id : 93 - Age :  0 -- PV : 8
+	Id : 94 - Age :  0 -- PV : 8
+	Id : 95 - Age :  0 -- PV : 8
+	Id : 96 - Age :  0 -- PV : 8
+	Id : 97 - Age :  0 -- PV : 8
+	Id : 98 - Age :  0 -- PV : 8
+	Id : 99 - Age :  0 -- PV : 8
+	Id : 100 - Age :  0 -- PV : 8
+	Id : 101 - Age :  0 -- PV : 8
+	Id : 102 - Age :  0 -- PV : 8
+	Id : 103 - Age :  0 -- PV : 8
+	Id : 104 - Age :  0 -- PV : 8
+	Id : 105 - Age :  0 -- PV : 8
+	Id : 106 - Age :  0 -- PV : 8
+	Id : 107 - Age :  0 -- PV : 8
+	Id : 108 - Age :  0 -- PV : 8
+	Id : 109 - Age :  0 -- PV : 8
+	Id : 110 - Age :  0 -- PV : 8
+	Id : 111 - Age :  0 -- PV : 8
+	Id : 112 - Age :  0 -- PV : 8
+	Id : 113 - Age :  0 -- PV : 8
+	Id : 114 - Age :  0 -- PV : 8
+	Id : 115 - Age :  0 -- PV : 8
+	Id : 116 - Age :  0 -- PV : 8
+	Id : 117 - Age :  0 -- PV : 8
+	Id : 118 - Age :  0 -- PV : 8
+	Id : 119 - Age :  0 -- PV : 8
+	Id : 120 - Age :  0 -- PV : 8
+	Id : 121 - Age :  0 -- PV : 7
+	Id : 122 - Age :  0 -- PV : 7
+	Id : 123 - Age :  0 -- PV : 7
+	Id : 124 - Age :  0 -- PV : 7
+	Id : 125 - Age :  0 -- PV : 7
+	Id : 126 - Age :  0 -- PV : 7
+	Id : 127 - Age :  0 -- PV : 7
+	Id : 128 - Age :  0 -- PV : 7
+	Id : 129 - Age :  0 -- PV : 7
+	Id : 130 - Age :  0 -- PV : 7
+	Id : 131 - Age :  0 -- PV : 7
+	Id : 132 - Age :  0 -- PV : 7
+	Id : 133 - Age :  0 -- PV : 7
+	Id : 134 - Age :  0 -- PV : 5
+	Id : 135 - Age :  0 -- PV : 7
+	Id : 136 - Age :  0 -- PV : 7
+	Id : 137 - Age :  0 -- PV : 7
+	Id : 138 - Age :  0 -- PV : 7
+	Id : 139 - Age :  0 -- PV : 7
+	Id : 140 - Age :  0 -- PV : 7
+	Id : 141 - Age :  0 -- PV : 7
+	Id : 142 - Age :  0 -- PV : 7
+	Id : 143 - Age :  0 -- PV : 7
+	Id : 144 - Age :  0 -- PV : 7
+	Id : 145 - Age :  0 -- PV : 7
+	Id : 146 - Age :  0 -- PV : 7
+	Id : 147 - Age :  0 -- PV : 7
+	Id : 148 - Age :  0 -- PV : 7
+	Id : 149 - Age :  0 -- PV : 7
+	Id : 150 - Age :  0 -- PV : 7
+	Id : 151 - Age :  0 -- PV : 7
+	Id : 152 - Age :  0 -- PV : 7
+	Id : 153 - Age :  0 -- PV : 7
+	Id : 154 - Age :  0 -- PV : 7
+	Id : 155 - Age :  0 -- PV : 7
+	Id : 156 - Age :  0 -- PV : 7
+	Id : 157 - Age :  0 -- PV : 7
+	Id : 158 - Age :  0 -- PV : 7
+	Id : 159 - Age :  0 -- PV : 7
+	Id : 160 - Age :  0 -- PV : 7
+	Id : 161 - Age :  0 -- PV : 7
+	Id : 162 - Age :  0 -- PV : 7
+	Id : 163 - Age :  0 -- PV : 7
+	Id : 164 - Age :  0 -- PV : 7
+	Id : 165 - Age :  0 -- PV : 7
+	Id : 166 - Age :  0 -- PV : 7
+	Id : 167 - Age :  0 -- PV : 7
+	Id : 168 - Age :  0 -- PV : 7
+	Id : 169 - Age :  0 -- PV : 7
+	Id : 170 - Age :  0 -- PV : 7
+	Id : 171 - Age :  0 -- PV : 7
+	Id : 172 - Age :  0 -- PV : 7
+	Id : 173 - Age :  0 -- PV : 7
+	Id : 174 - Age :  0 -- PV : 7
+	Id : 175 - Age :  0 -- PV : 6
+	Id : 176 - Age :  0 -- PV : 6
+	Id : 177 - Age :  0 -- PV : 6
+	Id : 178 - Age :  0 -- PV : 6
+	Id : 179 - Age :  0 -- PV : 6
+	Id : 180 - Age :  0 -- PV : 6
+	Id : 181 - Age :  0 -- PV : 6
+	Id : 182 - Age :  0 -- PV : 6
+	Id : 183 - Age :  0 -- PV : 6
+	Id : 184 - Age :  0 -- PV : 6
+	Id : 185 - Age :  0 -- PV : 6
+	Id : 186 - Age :  0 -- PV : 6
+	Id : 187 - Age :  0 -- PV : 6
+	Id : 188 - Age :  0 -- PV : 6
+	Id : 189 - Age :  0 -- PV : 6
+	Id : 190 - Age :  0 -- PV : 6
+	Id : 191 - Age :  0 -- PV : 6
+	Id : 192 - Age :  0 -- PV : 6
+	Id : 193 - Age :  0 -- PV : 6
+	Id : 194 - Age :  0 -- PV : 6
+	Id : 195 - Age :  0 -- PV : 6
+	Id : 196 - Age :  0 -- PV : 6
+	Id : 197 - Age :  0 -- PV : 6
+	Id : 198 - Age :  0 -- PV : 6
+	Id : 199 - Age :  0 -- PV : 6
+	Id : 200 - Age :  0 -- PV : 6
+	Id : 201 - Age :  0 -- PV : 6
+	Id : 202 - Age :  0 -- PV : 6
+	Id : 203 - Age :  0 -- PV : 6
+	Id : 204 - Age :  0 -- PV : 6
+	Id : 205 - Age :  0 -- PV : 6
+	Id : 206 - Age :  0 -- PV : 6
+	Id : 207 - Age :  0 -- PV : 6
+	Id : 208 - Age :  0 -- PV : 6
+__----- TOUR 15 -----__
+
+Nombre de poissons 539 
+Liste des poissons :	Id : 4 - Sexe : 1 - Race : 5 - Age : 15 -- PV : 7
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 15 -- PV : 6
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 13 -- PV : 2
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 14 -- PV : 2
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 11 -- PV : 4
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 12 -- PV : 3
+	Id : 17 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 18 - Sexe : 0 - Race : 1 - Age : 9 -- PV : 1
+	Id : 19 - Sexe : 1 - Race : 1 - Age : 9 -- PV : 1
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 9 -- PV : 1
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 22 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 23 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 21 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 22 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 23 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 24 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 25 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 26 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 27 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 28 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 29 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 30 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 31 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 32 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 33 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 34 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 35 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 36 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 37 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 38 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 39 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 40 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 41 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 42 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 43 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 44 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 45 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 46 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 47 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 48 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 49 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 50 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 51 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 52 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 53 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 53 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 54 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 55 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 56 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 57 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 58 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 59 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 60 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 61 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 62 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 63 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 64 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 65 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 66 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 67 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 68 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 69 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 70 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 71 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 72 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 73 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 74 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 75 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 76 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 77 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 78 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 79 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 80 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 81 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 82 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 83 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 84 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 85 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 86 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 87 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 88 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 89 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 90 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 91 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 92 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 93 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 94 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 95 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 96 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 96 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 97 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 98 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 99 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 100 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 101 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 102 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 103 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 104 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 105 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 106 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 107 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 108 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 109 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 110 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 111 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 112 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 113 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 114 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 115 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 116 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 117 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 118 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 119 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 120 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 121 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 122 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 123 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 124 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 125 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 126 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 127 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 128 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 129 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 130 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 131 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 132 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 133 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 134 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 135 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 136 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 137 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 138 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 139 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 140 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 141 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 142 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 143 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 144 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 145 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 146 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 147 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 148 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 149 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 150 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 151 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 152 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 153 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 154 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 155 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 156 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 157 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 158 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 159 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 160 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 161 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 162 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 163 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 164 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 165 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 166 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 167 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 168 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 169 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 170 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 171 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 170 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 169 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 170 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 171 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 172 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 173 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 174 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 175 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 176 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 177 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 178 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 179 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 180 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 181 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 182 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 183 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 184 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 185 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 186 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 187 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 188 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 189 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 190 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 191 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 192 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 193 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 194 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 195 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 196 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 197 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 198 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 199 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 200 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 201 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 202 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 203 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 204 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 205 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 206 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 207 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 208 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 209 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 210 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 211 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 212 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 213 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 214 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 215 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 216 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 217 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 218 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 219 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 220 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 221 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 222 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 223 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 224 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 225 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 226 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 227 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 228 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 229 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 230 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 231 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 232 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 233 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 234 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 235 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 236 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 237 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 238 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 239 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 240 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 241 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 242 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 243 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 244 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 245 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 246 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 247 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 248 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 249 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 250 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 251 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 252 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 253 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 254 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 255 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 256 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 257 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 258 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 259 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 260 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 261 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 262 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 263 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 264 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 265 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 266 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 267 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 268 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 269 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 270 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 271 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 272 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 273 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 274 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 275 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 276 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 277 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 278 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 279 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 280 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 281 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 282 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 283 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 284 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 285 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 286 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 287 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 288 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 287 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 288 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 289 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 290 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 291 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 292 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 293 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 294 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 295 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 296 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 297 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 298 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 299 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 300 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 301 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 302 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 303 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 304 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 305 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 306 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 307 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 308 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 309 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 310 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 311 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 312 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 313 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 314 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 315 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 316 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 317 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 318 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 319 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 320 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 321 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 322 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 323 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 324 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 325 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 326 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 327 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 328 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 329 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 330 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 331 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 332 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 333 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 334 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 335 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 336 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 337 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 338 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 339 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 340 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 341 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 342 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 343 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 344 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 345 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 346 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 347 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 348 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 349 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 350 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 351 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 352 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 353 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 354 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 355 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 356 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 357 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 358 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 359 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 360 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 361 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 362 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 363 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 364 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 365 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 366 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 367 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 368 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 369 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 370 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 371 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 372 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 373 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 374 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 375 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 376 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 377 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 378 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 379 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 380 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 381 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 382 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 383 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 384 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 385 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 386 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 387 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 388 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 389 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 390 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 391 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 392 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 393 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 394 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 395 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 396 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 397 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 398 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 399 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 400 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 401 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 402 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 403 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 404 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 405 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 406 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 407 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 408 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 409 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 410 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 411 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 412 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 413 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 414 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 415 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 416 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 417 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 418 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 419 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 420 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 421 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 422 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 423 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 424 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 425 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 426 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 427 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 428 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 429 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 430 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 431 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 432 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 433 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 434 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 435 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 436 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 437 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 438 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 439 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 440 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 441 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 442 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 443 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 444 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 445 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 446 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 447 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 448 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 449 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 450 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 451 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 452 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 453 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 454 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 455 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 456 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 457 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 458 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 459 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 460 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 461 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 462 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 463 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 464 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 465 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 466 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 467 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 468 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 469 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 470 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 471 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 472 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 473 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 474 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 475 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 476 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 477 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 478 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 479 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 480 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 481 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 482 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 483 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 484 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 485 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 486 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 487 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 488 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 489 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 490 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 491 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 492 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 493 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 494 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 495 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 496 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 497 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 498 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 499 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 500 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 501 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 502 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 503 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 504 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 505 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 506 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 507 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 508 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 509 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 510 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 511 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 512 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 513 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 514 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 515 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 516 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 517 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 518 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 519 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 520 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 521 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 522 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 523 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 524 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 525 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 526 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 527 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 528 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 529 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 530 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 531 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 532 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 533 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 534 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 535 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 536 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 537 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 538 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 231 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 5
+	Id : 1 - Age :  0 -- PV : 5
+	Id : 2 - Age :  0 -- PV : 5
+	Id : 3 - Age :  0 -- PV : 6
+	Id : 4 - Age :  0 -- PV : 6
+	Id : 5 - Age :  0 -- PV : 6
+	Id : 6 - Age :  0 -- PV : 6
+	Id : 7 - Age :  0 -- PV : 9
+	Id : 8 - Age :  0 -- PV : 6
+	Id : 9 - Age :  0 -- PV : 7
+	Id : 10 - Age :  0 -- PV : 7
+	Id : 11 - Age :  0 -- PV : 7
+	Id : 12 - Age :  0 -- PV : 7
+	Id : 13 - Age :  0 -- PV : 7
+	Id : 14 - Age :  0 -- PV : 7
+	Id : 15 - Age :  0 -- PV : 7
+	Id : 16 - Age :  0 -- PV : 7
+	Id : 17 - Age :  0 -- PV : 7
+	Id : 18 - Age :  0 -- PV : 5
+	Id : 19 - Age :  0 -- PV : 8
+	Id : 20 - Age :  0 -- PV : 7
+	Id : 21 - Age :  0 -- PV : 9
+	Id : 22 - Age :  0 -- PV : 6
+	Id : 23 - Age :  0 -- PV : 6
+	Id : 24 - Age :  0 -- PV : 6
+	Id : 25 - Age :  0 -- PV : 6
+	Id : 26 - Age :  0 -- PV : 9
+	Id : 27 - Age :  0 -- PV : 8
+	Id : 28 - Age :  0 -- PV : 8
+	Id : 29 - Age :  0 -- PV : 8
+	Id : 30 - Age :  0 -- PV : 8
+	Id : 31 - Age :  0 -- PV : 8
+	Id : 32 - Age :  0 -- PV : 8
+	Id : 33 - Age :  0 -- PV : 8
+	Id : 34 - Age :  0 -- PV : 8
+	Id : 35 - Age :  0 -- PV : 8
+	Id : 36 - Age :  0 -- PV : 8
+	Id : 37 - Age :  0 -- PV : 8
+	Id : 38 - Age :  0 -- PV : 8
+	Id : 39 - Age :  0 -- PV : 8
+	Id : 40 - Age :  0 -- PV : 8
+	Id : 41 - Age :  0 -- PV : 8
+	Id : 42 - Age :  0 -- PV : 8
+	Id : 43 - Age :  0 -- PV : 8
+	Id : 44 - Age :  0 -- PV : 8
+	Id : 45 - Age :  0 -- PV : 8
+	Id : 46 - Age :  0 -- PV : 8
+	Id : 47 - Age :  0 -- PV : 7
+	Id : 48 - Age :  0 -- PV : 7
+	Id : 49 - Age :  0 -- PV : 7
+	Id : 50 - Age :  0 -- PV : 7
+	Id : 51 - Age :  0 -- PV : 7
+	Id : 52 - Age :  0 -- PV : 7
+	Id : 53 - Age :  0 -- PV : 7
+	Id : 54 - Age :  0 -- PV : 7
+	Id : 55 - Age :  0 -- PV : 7
+	Id : 56 - Age :  0 -- PV : 7
+	Id : 57 - Age :  0 -- PV : 7
+	Id : 58 - Age :  0 -- PV : 7
+	Id : 59 - Age :  0 -- PV : 7
+	Id : 60 - Age :  0 -- PV : 7
+	Id : 61 - Age :  0 -- PV : 7
+	Id : 62 - Age :  0 -- PV : 5
+	Id : 63 - Age :  0 -- PV : 7
+	Id : 64 - Age :  0 -- PV : 7
+	Id : 65 - Age :  0 -- PV : 6
+	Id : 66 - Age :  0 -- PV : 6
+	Id : 67 - Age :  0 -- PV : 6
+	Id : 68 - Age :  0 -- PV : 6
+	Id : 69 - Age :  0 -- PV : 6
+	Id : 70 - Age :  0 -- PV : 6
+	Id : 71 - Age :  0 -- PV : 6
+	Id : 72 - Age :  0 -- PV : 6
+	Id : 73 - Age :  0 -- PV : 5
+	Id : 74 - Age :  0 -- PV : 5
+	Id : 75 - Age :  0 -- PV : 5
+	Id : 76 - Age :  0 -- PV : 5
+	Id : 77 - Age :  0 -- PV : 5
+	Id : 78 - Age :  0 -- PV : 5
+	Id : 79 - Age :  0 -- PV : 9
+	Id : 80 - Age :  0 -- PV : 9
+	Id : 81 - Age :  0 -- PV : 9
+	Id : 82 - Age :  0 -- PV : 9
+	Id : 83 - Age :  0 -- PV : 9
+	Id : 84 - Age :  0 -- PV : 9
+	Id : 85 - Age :  0 -- PV : 9
+	Id : 86 - Age :  0 -- PV : 9
+	Id : 87 - Age :  0 -- PV : 9
+	Id : 88 - Age :  0 -- PV : 9
+	Id : 89 - Age :  0 -- PV : 9
+	Id : 90 - Age :  0 -- PV : 9
+	Id : 91 - Age :  0 -- PV : 9
+	Id : 92 - Age :  0 -- PV : 9
+	Id : 93 - Age :  0 -- PV : 9
+	Id : 94 - Age :  0 -- PV : 9
+	Id : 95 - Age :  0 -- PV : 9
+	Id : 96 - Age :  0 -- PV : 9
+	Id : 97 - Age :  0 -- PV : 9
+	Id : 98 - Age :  0 -- PV : 9
+	Id : 99 - Age :  0 -- PV : 9
+	Id : 100 - Age :  0 -- PV : 9
+	Id : 101 - Age :  0 -- PV : 9
+	Id : 102 - Age :  0 -- PV : 9
+	Id : 103 - Age :  0 -- PV : 9
+	Id : 104 - Age :  0 -- PV : 9
+	Id : 105 - Age :  0 -- PV : 9
+	Id : 106 - Age :  0 -- PV : 9
+	Id : 107 - Age :  0 -- PV : 9
+	Id : 108 - Age :  0 -- PV : 9
+	Id : 109 - Age :  0 -- PV : 9
+	Id : 110 - Age :  0 -- PV : 9
+	Id : 111 - Age :  0 -- PV : 9
+	Id : 112 - Age :  0 -- PV : 9
+	Id : 113 - Age :  0 -- PV : 9
+	Id : 114 - Age :  0 -- PV : 9
+	Id : 115 - Age :  0 -- PV : 9
+	Id : 116 - Age :  0 -- PV : 9
+	Id : 117 - Age :  0 -- PV : 9
+	Id : 118 - Age :  0 -- PV : 9
+	Id : 119 - Age :  0 -- PV : 9
+	Id : 120 - Age :  0 -- PV : 9
+	Id : 121 - Age :  0 -- PV : 8
+	Id : 122 - Age :  0 -- PV : 8
+	Id : 123 - Age :  0 -- PV : 8
+	Id : 124 - Age :  0 -- PV : 8
+	Id : 125 - Age :  0 -- PV : 8
+	Id : 126 - Age :  0 -- PV : 8
+	Id : 127 - Age :  0 -- PV : 8
+	Id : 128 - Age :  0 -- PV : 8
+	Id : 129 - Age :  0 -- PV : 8
+	Id : 130 - Age :  0 -- PV : 8
+	Id : 131 - Age :  0 -- PV : 8
+	Id : 132 - Age :  0 -- PV : 8
+	Id : 133 - Age :  0 -- PV : 8
+	Id : 134 - Age :  0 -- PV : 6
+	Id : 135 - Age :  0 -- PV : 8
+	Id : 136 - Age :  0 -- PV : 8
+	Id : 137 - Age :  0 -- PV : 8
+	Id : 138 - Age :  0 -- PV : 8
+	Id : 139 - Age :  0 -- PV : 8
+	Id : 140 - Age :  0 -- PV : 8
+	Id : 141 - Age :  0 -- PV : 8
+	Id : 142 - Age :  0 -- PV : 8
+	Id : 143 - Age :  0 -- PV : 8
+	Id : 144 - Age :  0 -- PV : 8
+	Id : 145 - Age :  0 -- PV : 8
+	Id : 146 - Age :  0 -- PV : 8
+	Id : 147 - Age :  0 -- PV : 8
+	Id : 148 - Age :  0 -- PV : 8
+	Id : 149 - Age :  0 -- PV : 8
+	Id : 150 - Age :  0 -- PV : 8
+	Id : 151 - Age :  0 -- PV : 8
+	Id : 152 - Age :  0 -- PV : 8
+	Id : 153 - Age :  0 -- PV : 8
+	Id : 154 - Age :  0 -- PV : 8
+	Id : 155 - Age :  0 -- PV : 8
+	Id : 156 - Age :  0 -- PV : 8
+	Id : 157 - Age :  0 -- PV : 8
+	Id : 158 - Age :  0 -- PV : 8
+	Id : 159 - Age :  0 -- PV : 8
+	Id : 160 - Age :  0 -- PV : 8
+	Id : 161 - Age :  0 -- PV : 8
+	Id : 162 - Age :  0 -- PV : 8
+	Id : 163 - Age :  0 -- PV : 8
+	Id : 164 - Age :  0 -- PV : 8
+	Id : 165 - Age :  0 -- PV : 8
+	Id : 166 - Age :  0 -- PV : 8
+	Id : 167 - Age :  0 -- PV : 8
+	Id : 168 - Age :  0 -- PV : 8
+	Id : 169 - Age :  0 -- PV : 8
+	Id : 170 - Age :  0 -- PV : 8
+	Id : 171 - Age :  0 -- PV : 8
+	Id : 172 - Age :  0 -- PV : 8
+	Id : 173 - Age :  0 -- PV : 8
+	Id : 174 - Age :  0 -- PV : 8
+	Id : 175 - Age :  0 -- PV : 7
+	Id : 176 - Age :  0 -- PV : 7
+	Id : 177 - Age :  0 -- PV : 7
+	Id : 178 - Age :  0 -- PV : 7
+	Id : 179 - Age :  0 -- PV : 7
+	Id : 180 - Age :  0 -- PV : 7
+	Id : 181 - Age :  0 -- PV : 7
+	Id : 182 - Age :  0 -- PV : 7
+	Id : 183 - Age :  0 -- PV : 7
+	Id : 184 - Age :  0 -- PV : 7
+	Id : 185 - Age :  0 -- PV : 7
+	Id : 186 - Age :  0 -- PV : 7
+	Id : 187 - Age :  0 -- PV : 7
+	Id : 188 - Age :  0 -- PV : 7
+	Id : 189 - Age :  0 -- PV : 7
+	Id : 190 - Age :  0 -- PV : 7
+	Id : 191 - Age :  0 -- PV : 7
+	Id : 192 - Age :  0 -- PV : 7
+	Id : 193 - Age :  0 -- PV : 7
+	Id : 194 - Age :  0 -- PV : 7
+	Id : 195 - Age :  0 -- PV : 7
+	Id : 196 - Age :  0 -- PV : 7
+	Id : 197 - Age :  0 -- PV : 7
+	Id : 198 - Age :  0 -- PV : 7
+	Id : 199 - Age :  0 -- PV : 7
+	Id : 200 - Age :  0 -- PV : 7
+	Id : 201 - Age :  0 -- PV : 7
+	Id : 202 - Age :  0 -- PV : 7
+	Id : 203 - Age :  0 -- PV : 7
+	Id : 204 - Age :  0 -- PV : 7
+	Id : 205 - Age :  0 -- PV : 7
+	Id : 206 - Age :  0 -- PV : 7
+	Id : 207 - Age :  0 -- PV : 7
+	Id : 208 - Age :  0 -- PV : 7
+	Id : 209 - Age :  0 -- PV : 6
+	Id : 210 - Age :  0 -- PV : 6
+	Id : 211 - Age :  0 -- PV : 6
+	Id : 212 - Age :  0 -- PV : 6
+	Id : 213 - Age :  0 -- PV : 6
+	Id : 214 - Age :  0 -- PV : 6
+	Id : 215 - Age :  0 -- PV : 6
+	Id : 216 - Age :  0 -- PV : 6
+	Id : 217 - Age :  0 -- PV : 6
+	Id : 218 - Age :  0 -- PV : 6
+	Id : 219 - Age :  0 -- PV : 6
+	Id : 220 - Age :  0 -- PV : 6
+	Id : 221 - Age :  0 -- PV : 6
+	Id : 222 - Age :  0 -- PV : 6
+	Id : 223 - Age :  0 -- PV : 6
+	Id : 224 - Age :  0 -- PV : 6
+	Id : 225 - Age :  0 -- PV : 6
+	Id : 226 - Age :  0 -- PV : 6
+	Id : 227 - Age :  0 -- PV : 6
+	Id : 228 - Age :  0 -- PV : 6
+	Id : 229 - Age :  0 -- PV : 6
+	Id : 230 - Age :  0 -- PV : 6
+__----- TOUR 16 -----__
+
+Nombre de poissons 952 
+Liste des poissons :	Id : 4 - Sexe : 1 - Race : 5 - Age : 16 -- PV : 6
+	Id : 6 - Sexe : 1 - Race : 2 - Age : 16 -- PV : 5
+	Id : 10 - Sexe : 1 - Race : 1 - Age : 14 -- PV : 1
+	Id : 11 - Sexe : 0 - Race : 1 - Age : 15 -- PV : 1
+	Id : 14 - Sexe : 0 - Race : 1 - Age : 12 -- PV : 3
+	Id : 15 - Sexe : 1 - Race : 1 - Age : 13 -- PV : 2
+	Id : 17 - Sexe : 1 - Race : 1 - Age : 8 -- PV : 2
+	Id : 19 - Sexe : 1 - Race : 1 - Age : 9 -- PV : 1
+	Id : 20 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 22 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 23 - Sexe : 1 - Race : 1 - Age : 8 -- PV : 2
+	Id : 21 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 22 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 23 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 24 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 25 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 26 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 27 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 28 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 29 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 30 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 31 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 32 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 33 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 34 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 35 - Sexe : 0 - Race : 1 - Age : 7 -- PV : 3
+	Id : 36 - Sexe : 1 - Race : 1 - Age : 7 -- PV : 3
+	Id : 37 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 38 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 39 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 40 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 41 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 42 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 43 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 44 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 45 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 46 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 47 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 48 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 49 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 50 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 51 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 52 - Sexe : 1 - Race : 1 - Age : 6 -- PV : 4
+	Id : 53 - Sexe : 0 - Race : 1 - Age : 6 -- PV : 4
+	Id : 53 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 54 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 55 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 56 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 57 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 58 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 59 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 60 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 61 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 62 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 63 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 64 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 65 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 66 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 67 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 68 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 69 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 70 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 71 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 72 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 73 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 74 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 75 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 76 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 77 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 78 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 79 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 80 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 81 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 82 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 83 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 84 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 85 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 86 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 87 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 88 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 89 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 90 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 91 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 92 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 93 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 94 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 95 - Sexe : 0 - Race : 1 - Age : 5 -- PV : 5
+	Id : 96 - Sexe : 1 - Race : 1 - Age : 5 -- PV : 5
+	Id : 96 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 97 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 98 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 99 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 100 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 101 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 102 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 103 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 104 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 105 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 106 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 107 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 108 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 109 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 110 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 111 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 112 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 113 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 114 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 115 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 116 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 117 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 118 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 119 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 120 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 121 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 122 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 123 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 124 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 125 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 126 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 127 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 128 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 129 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 130 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 131 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 132 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 133 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 134 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 135 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 136 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 137 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 138 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 139 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 140 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 141 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 142 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 143 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 144 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 145 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 146 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 147 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 148 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 149 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 150 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 151 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 152 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 153 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 154 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 155 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 156 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 157 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 158 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 159 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 160 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 161 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 162 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 163 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 164 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 165 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 166 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 167 - Sexe : 1 - Race : 1 - Age : 4 -- PV : 6
+	Id : 168 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 169 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 170 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 171 - Sexe : 0 - Race : 1 - Age : 4 -- PV : 6
+	Id : 170 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 169 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 170 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 171 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 172 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 173 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 174 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 175 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 176 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 177 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 178 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 179 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 180 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 181 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 182 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 183 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 184 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 185 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 186 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 187 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 188 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 189 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 190 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 191 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 192 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 193 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 194 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 195 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 196 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 197 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 198 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 199 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 200 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 201 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 202 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 203 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 204 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 205 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 206 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 207 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 208 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 209 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 210 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 211 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 212 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 213 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 214 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 215 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 216 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 217 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 218 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 219 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 220 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 221 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 222 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 223 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 224 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 225 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 226 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 227 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 228 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 229 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 230 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 231 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 232 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 233 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 234 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 235 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 236 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 237 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 238 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 239 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 240 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 241 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 242 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 243 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 244 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 245 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 246 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 247 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 248 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 249 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 250 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 251 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 252 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 253 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 254 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 255 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 256 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 257 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 258 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 259 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 260 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 261 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 262 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 263 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 264 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 265 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 266 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 267 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 268 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 269 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 270 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 271 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 272 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 273 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 274 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 275 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 276 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 277 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 278 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 279 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 280 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 281 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 282 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 283 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 284 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 285 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 286 - Sexe : 0 - Race : 1 - Age : 3 -- PV : 7
+	Id : 287 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 288 - Sexe : 1 - Race : 1 - Age : 3 -- PV : 7
+	Id : 287 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 288 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 289 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 290 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 291 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 292 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 293 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 294 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 295 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 296 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 297 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 298 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 299 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 300 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 301 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 302 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 303 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 304 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 305 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 306 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 307 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 308 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 309 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 310 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 311 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 312 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 313 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 314 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 315 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 316 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 317 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 318 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 319 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 320 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 321 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 322 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 323 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 324 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 325 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 326 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 327 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 328 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 329 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 330 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 331 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 332 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 333 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 334 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 335 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 336 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 337 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 338 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 339 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 340 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 341 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 342 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 343 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 344 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 345 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 346 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 347 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 348 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 349 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 350 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 351 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 352 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 353 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 354 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 355 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 356 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 357 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 358 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 359 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 360 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 361 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 362 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 363 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 364 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 365 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 366 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 367 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 368 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 369 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 370 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 371 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 372 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 373 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 374 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 375 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 376 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 377 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 378 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 379 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 380 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 381 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 382 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 383 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 384 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 385 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 386 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 387 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 388 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 389 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 390 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 391 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 392 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 393 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 394 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 395 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 396 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 397 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 398 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 399 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 400 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 401 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 402 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 403 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 404 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 405 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 406 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 407 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 408 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 409 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 410 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 411 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 412 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 413 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 414 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 415 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 416 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 417 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 418 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 419 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 420 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 421 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 422 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 423 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 424 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 425 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 426 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 427 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 428 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 429 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 430 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 431 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 432 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 433 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 434 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 435 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 436 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 437 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 438 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 439 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 440 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 441 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 442 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 443 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 444 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 445 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 446 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 447 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 448 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 449 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 450 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 451 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 452 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 453 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 454 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 455 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 456 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 457 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 458 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 459 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 460 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 461 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 462 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 463 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 464 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 465 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 466 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 467 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 468 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 469 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 470 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 471 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 472 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 473 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 474 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 475 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 476 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 477 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 478 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 479 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 480 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 481 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 482 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 483 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 484 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 485 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 486 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 487 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 488 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 489 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 490 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 491 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 492 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 493 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 494 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 495 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 496 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 497 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 498 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 499 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 500 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 501 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 502 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 503 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 504 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 505 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 506 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 507 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 508 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 509 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 510 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 511 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 512 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 513 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 514 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 515 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 516 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 517 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 518 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 519 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 520 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 521 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 522 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 523 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 524 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 525 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 526 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 527 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 528 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 529 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 530 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 531 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 532 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 533 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 534 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 535 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 536 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 537 - Sexe : 1 - Race : 1 - Age : 2 -- PV : 8
+	Id : 538 - Sexe : 0 - Race : 1 - Age : 2 -- PV : 8
+	Id : 537 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 538 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 539 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 540 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 541 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 542 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 543 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 544 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 545 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 546 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 547 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 548 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 549 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 550 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 551 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 552 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 553 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 554 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 555 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 556 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 557 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 558 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 559 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 560 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 561 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 562 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 563 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 564 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 565 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 566 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 567 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 568 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 569 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 570 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 571 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 572 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 573 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 574 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 575 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 576 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 577 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 578 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 579 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 580 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 581 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 582 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 583 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 584 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 585 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 586 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 587 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 588 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 589 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 590 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 591 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 592 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 593 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 594 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 595 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 596 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 597 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 598 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 599 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 600 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 601 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 602 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 603 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 604 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 605 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 606 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 607 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 608 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 609 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 610 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 611 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 612 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 613 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 614 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 615 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 616 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 617 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 618 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 619 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 620 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 621 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 622 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 623 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 624 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 625 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 626 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 627 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 628 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 629 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 630 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 631 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 632 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 633 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 634 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 635 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 636 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 637 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 638 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 639 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 640 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 641 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 642 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 643 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 644 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 645 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 646 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 647 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 648 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 649 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 650 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 651 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 652 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 653 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 654 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 655 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 656 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 657 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 658 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 659 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 660 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 661 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 662 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 663 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 664 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 665 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 666 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 667 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 668 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 669 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 670 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 671 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 672 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 673 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 674 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 675 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 676 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 677 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 678 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 679 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 680 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 681 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 682 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 683 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 684 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 685 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 686 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 687 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 688 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 689 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 690 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 691 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 692 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 693 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 694 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 695 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 696 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 697 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 698 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 699 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 700 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 701 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 702 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 703 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 704 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 705 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 706 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 707 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 708 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 709 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 710 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 711 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 712 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 713 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 714 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 715 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 716 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 717 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 718 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 719 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 720 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 721 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 722 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 723 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 724 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 725 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 726 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 727 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 728 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 729 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 730 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 731 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 732 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 733 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 734 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 735 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 736 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 737 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 738 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 739 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 740 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 741 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 742 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 743 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 744 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 745 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 746 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 747 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 748 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 749 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 750 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 751 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 752 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 753 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 754 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 755 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 756 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 757 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 758 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 759 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 760 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 761 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 762 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 763 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 764 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 765 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 766 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 767 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 768 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 769 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 770 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 771 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 772 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 773 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 774 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 775 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 776 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 777 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 778 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 779 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 780 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 781 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 782 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 783 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 784 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 785 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 786 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 787 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 788 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 789 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 790 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 791 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 792 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 793 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 794 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 795 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 796 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 797 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 798 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 799 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 800 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 801 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 802 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 803 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 804 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 805 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 806 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 807 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 808 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 809 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 810 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 811 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 812 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 813 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 814 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 815 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 816 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 817 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 818 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 819 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 820 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 821 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 822 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 823 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 824 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 825 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 826 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 827 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 828 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 829 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 830 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 831 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 832 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 833 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 834 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 835 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 836 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 837 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 838 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 839 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 840 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 841 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 842 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 843 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 844 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 845 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 846 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 847 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 848 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 849 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 850 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 851 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 852 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 853 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 854 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 855 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 856 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 857 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 858 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 859 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 860 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 861 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 862 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 863 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 864 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 865 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 866 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 867 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 868 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 869 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 870 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 871 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 872 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 873 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 874 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 875 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 876 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 877 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 878 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 879 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 880 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 881 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 882 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 883 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 884 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 885 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 886 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 887 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 888 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 889 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 890 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 891 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 892 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 893 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 894 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 895 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 896 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 897 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 898 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 899 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 900 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 901 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 902 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 903 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 904 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 905 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 906 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 907 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 908 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 909 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 910 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 911 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 912 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 913 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 914 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 915 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 916 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 917 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 918 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 919 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 920 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 921 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 922 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 923 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 924 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 925 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 926 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 927 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 928 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 929 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 930 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 931 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 932 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 933 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 934 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 935 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 936 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 937 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 938 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 939 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 940 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 941 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 942 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 943 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 944 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 945 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 946 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 947 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 948 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 949 - Sexe : 0 - Race : 1 - Age : 1 -- PV : 9
+	Id : 950 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+	Id : 951 - Sexe : 1 - Race : 1 - Age : 1 -- PV : 9
+
+Nombre d'algues 321 
+Liste des algues :	Id : 0 - Age :  0 -- PV : 6
+	Id : 1 - Age :  0 -- PV : 6
+	Id : 2 - Age :  0 -- PV : 6
+	Id : 3 - Age :  0 -- PV : 7
+	Id : 4 - Age :  0 -- PV : 7
+	Id : 5 - Age :  0 -- PV : 7
+	Id : 6 - Age :  0 -- PV : 7
+	Id : 7 - Age :  0 -- PV : 5
+	Id : 8 - Age :  0 -- PV : 7
+	Id : 9 - Age :  0 -- PV : 8
+	Id : 10 - Age :  0 -- PV : 8
+	Id : 11 - Age :  0 -- PV : 8
+	Id : 12 - Age :  0 -- PV : 8
+	Id : 13 - Age :  0 -- PV : 8
+	Id : 14 - Age :  0 -- PV : 8
+	Id : 15 - Age :  0 -- PV : 8
+	Id : 16 - Age :  0 -- PV : 8
+	Id : 17 - Age :  0 -- PV : 8
+	Id : 18 - Age :  0 -- PV : 6
+	Id : 19 - Age :  0 -- PV : 9
+	Id : 20 - Age :  0 -- PV : 8
+	Id : 21 - Age :  0 -- PV : 5
+	Id : 22 - Age :  0 -- PV : 7
+	Id : 23 - Age :  0 -- PV : 7
+	Id : 24 - Age :  0 -- PV : 7
+	Id : 25 - Age :  0 -- PV : 7
+	Id : 26 - Age :  0 -- PV : 5
+	Id : 27 - Age :  0 -- PV : 9
+	Id : 28 - Age :  0 -- PV : 9
+	Id : 29 - Age :  0 -- PV : 9
+	Id : 30 - Age :  0 -- PV : 9
+	Id : 31 - Age :  0 -- PV : 9
+	Id : 32 - Age :  0 -- PV : 9
+	Id : 33 - Age :  0 -- PV : 9
+	Id : 34 - Age :  0 -- PV : 9
+	Id : 35 - Age :  0 -- PV : 9
+	Id : 36 - Age :  0 -- PV : 9
+	Id : 37 - Age :  0 -- PV : 9
+	Id : 38 - Age :  0 -- PV : 9
+	Id : 39 - Age :  0 -- PV : 9
+	Id : 40 - Age :  0 -- PV : 9
+	Id : 41 - Age :  0 -- PV : 9
+	Id : 42 - Age :  0 -- PV : 9
+	Id : 43 - Age :  0 -- PV : 9
+	Id : 44 - Age :  0 -- PV : 9
+	Id : 45 - Age :  0 -- PV : 9
+	Id : 46 - Age :  0 -- PV : 9
+	Id : 47 - Age :  0 -- PV : 8
+	Id : 48 - Age :  0 -- PV : 8
+	Id : 49 - Age :  0 -- PV : 8
+	Id : 50 - Age :  0 -- PV : 8
+	Id : 51 - Age :  0 -- PV : 8
+	Id : 52 - Age :  0 -- PV : 8
+	Id : 53 - Age :  0 -- PV : 8
+	Id : 54 - Age :  0 -- PV : 8
+	Id : 55 - Age :  0 -- PV : 8
+	Id : 56 - Age :  0 -- PV : 8
+	Id : 57 - Age :  0 -- PV : 8
+	Id : 58 - Age :  0 -- PV : 8
+	Id : 59 - Age :  0 -- PV : 8
+	Id : 60 - Age :  0 -- PV : 8
+	Id : 61 - Age :  0 -- PV : 8
+	Id : 62 - Age :  0 -- PV : 6
+	Id : 63 - Age :  0 -- PV : 8
+	Id : 64 - Age :  0 -- PV : 8
+	Id : 65 - Age :  0 -- PV : 7
+	Id : 66 - Age :  0 -- PV : 7
+	Id : 67 - Age :  0 -- PV : 7
+	Id : 68 - Age :  0 -- PV : 7
+	Id : 69 - Age :  0 -- PV : 7
+	Id : 70 - Age :  0 -- PV : 7
+	Id : 71 - Age :  0 -- PV : 7
+	Id : 72 - Age :  0 -- PV : 7
+	Id : 73 - Age :  0 -- PV : 6
+	Id : 74 - Age :  0 -- PV : 6
+	Id : 75 - Age :  0 -- PV : 6
+	Id : 76 - Age :  0 -- PV : 6
+	Id : 77 - Age :  0 -- PV : 6
+	Id : 78 - Age :  0 -- PV : 6
+	Id : 79 - Age :  0 -- PV : 5
+	Id : 80 - Age :  0 -- PV : 5
+	Id : 81 - Age :  0 -- PV : 5
+	Id : 82 - Age :  0 -- PV : 5
+	Id : 83 - Age :  0 -- PV : 5
+	Id : 84 - Age :  0 -- PV : 5
+	Id : 85 - Age :  0 -- PV : 5
+	Id : 86 - Age :  0 -- PV : 5
+	Id : 87 - Age :  0 -- PV : 5
+	Id : 88 - Age :  0 -- PV : 5
+	Id : 89 - Age :  0 -- PV : 5
+	Id : 90 - Age :  0 -- PV : 5
+	Id : 91 - Age :  0 -- PV : 5
+	Id : 92 - Age :  0 -- PV : 5
+	Id : 93 - Age :  0 -- PV : 5
+	Id : 94 - Age :  0 -- PV : 5
+	Id : 95 - Age :  0 -- PV : 5
+	Id : 96 - Age :  0 -- PV : 5
+	Id : 97 - Age :  0 -- PV : 5
+	Id : 98 - Age :  0 -- PV : 5
+	Id : 99 - Age :  0 -- PV : 5
+	Id : 100 - Age :  0 -- PV : 5
+	Id : 101 - Age :  0 -- PV : 5
+	Id : 102 - Age :  0 -- PV : 5
+	Id : 103 - Age :  0 -- PV : 5
+	Id : 104 - Age :  0 -- PV : 5
+	Id : 105 - Age :  0 -- PV : 5
+	Id : 106 - Age :  0 -- PV : 5
+	Id : 107 - Age :  0 -- PV : 5
+	Id : 108 - Age :  0 -- PV : 5
+	Id : 109 - Age :  0 -- PV : 5
+	Id : 110 - Age :  0 -- PV : 5
+	Id : 111 - Age :  0 -- PV : 5
+	Id : 112 - Age :  0 -- PV : 5
+	Id : 113 - Age :  0 -- PV : 5
+	Id : 114 - Age :  0 -- PV : 5
+	Id : 115 - Age :  0 -- PV : 5
+	Id : 116 - Age :  0 -- PV : 5
+	Id : 117 - Age :  0 -- PV : 5
+	Id : 118 - Age :  0 -- PV : 5
+	Id : 119 - Age :  0 -- PV : 5
+	Id : 120 - Age :  0 -- PV : 5
+	Id : 121 - Age :  0 -- PV : 9
+	Id : 122 - Age :  0 -- PV : 9
+	Id : 123 - Age :  0 -- PV : 9
+	Id : 124 - Age :  0 -- PV : 9
+	Id : 125 - Age :  0 -- PV : 9
+	Id : 126 - Age :  0 -- PV : 9
+	Id : 127 - Age :  0 -- PV : 9
+	Id : 128 - Age :  0 -- PV : 9
+	Id : 129 - Age :  0 -- PV : 9
+	Id : 130 - Age :  0 -- PV : 9
+	Id : 131 - Age :  0 -- PV : 9
+	Id : 132 - Age :  0 -- PV : 9
+	Id : 133 - Age :  0 -- PV : 9
+	Id : 134 - Age :  0 -- PV : 7
+	Id : 135 - Age :  0 -- PV : 9
+	Id : 136 - Age :  0 -- PV : 9
+	Id : 137 - Age :  0 -- PV : 9
+	Id : 138 - Age :  0 -- PV : 9
+	Id : 139 - Age :  0 -- PV : 9
+	Id : 140 - Age :  0 -- PV : 9
+	Id : 141 - Age :  0 -- PV : 9
+	Id : 142 - Age :  0 -- PV : 9
+	Id : 143 - Age :  0 -- PV : 9
+	Id : 144 - Age :  0 -- PV : 9
+	Id : 145 - Age :  0 -- PV : 9
+	Id : 146 - Age :  0 -- PV : 9
+	Id : 147 - Age :  0 -- PV : 9
+	Id : 148 - Age :  0 -- PV : 9
+	Id : 149 - Age :  0 -- PV : 9
+	Id : 150 - Age :  0 -- PV : 9
+	Id : 151 - Age :  0 -- PV : 9
+	Id : 152 - Age :  0 -- PV : 9
+	Id : 153 - Age :  0 -- PV : 9
+	Id : 154 - Age :  0 -- PV : 9
+	Id : 155 - Age :  0 -- PV : 9
+	Id : 156 - Age :  0 -- PV : 9
+	Id : 157 - Age :  0 -- PV : 9
+	Id : 158 - Age :  0 -- PV : 9
+	Id : 159 - Age :  0 -- PV : 9
+	Id : 160 - Age :  0 -- PV : 9
+	Id : 161 - Age :  0 -- PV : 9
+	Id : 162 - Age :  0 -- PV : 9
+	Id : 163 - Age :  0 -- PV : 9
+	Id : 164 - Age :  0 -- PV : 9
+	Id : 165 - Age :  0 -- PV : 9
+	Id : 166 - Age :  0 -- PV : 9
+	Id : 167 - Age :  0 -- PV : 9
+	Id : 168 - Age :  0 -- PV : 9
+	Id : 169 - Age :  0 -- PV : 9
+	Id : 170 - Age :  0 -- PV : 9
+	Id : 171 - Age :  0 -- PV : 9
+	Id : 172 - Age :  0 -- PV : 9
+	Id : 173 - Age :  0 -- PV : 9
+	Id : 174 - Age :  0 -- PV : 9
+	Id : 175 - Age :  0 -- PV : 8
+	Id : 176 - Age :  0 -- PV : 8
+	Id : 177 - Age :  0 -- PV : 8
+	Id : 178 - Age :  0 -- PV : 8
+	Id : 179 - Age :  0 -- PV : 8
+	Id : 180 - Age :  0 -- PV : 8
+	Id : 181 - Age :  0 -- PV : 8
+	Id : 182 - Age :  0 -- PV : 8
+	Id : 183 - Age :  0 -- PV : 8
+	Id : 184 - Age :  0 -- PV : 8
+	Id : 185 - Age :  0 -- PV : 8
+	Id : 186 - Age :  0 -- PV : 8
+	Id : 187 - Age :  0 -- PV : 8
+	Id : 188 - Age :  0 -- PV : 8
+	Id : 189 - Age :  0 -- PV : 8
+	Id : 190 - Age :  0 -- PV : 8
+	Id : 191 - Age :  0 -- PV : 8
+	Id : 192 - Age :  0 -- PV : 8
+	Id : 193 - Age :  0 -- PV : 8
+	Id : 194 - Age :  0 -- PV : 8
+	Id : 195 - Age :  0 -- PV : 8
+	Id : 196 - Age :  0 -- PV : 8
+	Id : 197 - Age :  0 -- PV : 8
+	Id : 198 - Age :  0 -- PV : 8
+	Id : 199 - Age :  0 -- PV : 8
+	Id : 200 - Age :  0 -- PV : 8
+	Id : 201 - Age :  0 -- PV : 8
+	Id : 202 - Age :  0 -- PV : 8
+	Id : 203 - Age :  0 -- PV : 8
+	Id : 204 - Age :  0 -- PV : 8
+	Id : 205 - Age :  0 -- PV : 8
+	Id : 206 - Age :  0 -- PV : 8
+	Id : 207 - Age :  0 -- PV : 8
+	Id : 208 - Age :  0 -- PV : 8
+	Id : 209 - Age :  0 -- PV : 7
+	Id : 210 - Age :  0 -- PV : 7
+	Id : 211 - Age :  0 -- PV : 7
+	Id : 212 - Age :  0 -- PV : 7
+	Id : 213 - Age :  0 -- PV : 7
+	Id : 214 - Age :  0 -- PV : 7
+	Id : 215 - Age :  0 -- PV : 7
+	Id : 216 - Age :  0 -- PV : 7
+	Id : 217 - Age :  0 -- PV : 7
+	Id : 218 - Age :  0 -- PV : 7
+	Id : 219 - Age :  0 -- PV : 7
+	Id : 220 - Age :  0 -- PV : 7
+	Id : 221 - Age :  0 -- PV : 7
+	Id : 222 - Age :  0 -- PV : 7
+	Id : 223 - Age :  0 -- PV : 7
+	Id : 224 - Age :  0 -- PV : 7
+	Id : 225 - Age :  0 -- PV : 7
+	Id : 226 - Age :  0 -- PV : 7
+	Id : 227 - Age :  0 -- PV : 7
+	Id : 228 - Age :  0 -- PV : 7
+	Id : 229 - Age :  0 -- PV : 7
+	Id : 230 - Age :  0 -- PV : 7
+	Id : 231 - Age :  0 -- PV : 6
+	Id : 232 - Age :  0 -- PV : 6
+	Id : 233 - Age :  0 -- PV : 6
+	Id : 234 - Age :  0 -- PV : 6
+	Id : 235 - Age :  0 -- PV : 6
+	Id : 236 - Age :  0 -- PV : 6
+	Id : 237 - Age :  0 -- PV : 6
+	Id : 238 - Age :  0 -- PV : 6
+	Id : 239 - Age :  0 -- PV : 6
+	Id : 240 - Age :  0 -- PV : 6
+	Id : 241 - Age :  0 -- PV : 6
+	Id : 242 - Age :  0 -- PV : 6
+	Id : 243 - Age :  0 -- PV : 6
+	Id : 244 - Age :  0 -- PV : 6
+	Id : 245 - Age :  0 -- PV : 6
+	Id : 246 - Age :  0 -- PV : 6
+	Id : 247 - Age :  0 -- PV : 6
+	Id : 248 - Age :  0 -- PV : 6
+	Id : 249 - Age :  0 -- PV : 6
+	Id : 250 - Age :  0 -- PV : 6
+	Id : 251 - Age :  0 -- PV : 6
+	Id : 252 - Age :  0 -- PV : 6
+	Id : 253 - Age :  0 -- PV : 6
+	Id : 254 - Age :  0 -- PV : 6
+	Id : 255 - Age :  0 -- PV : 6
+	Id : 256 - Age :  0 -- PV : 6
+	Id : 257 - Age :  0 -- PV : 6
+	Id : 258 - Age :  0 -- PV : 6
+	Id : 259 - Age :  0 -- PV : 6
+	Id : 260 - Age :  0 -- PV : 6
+	Id : 261 - Age :  0 -- PV : 6
+	Id : 262 - Age :  0 -- PV : 6
+	Id : 263 - Age :  0 -- PV : 6
+	Id : 264 - Age :  0 -- PV : 6
+	Id : 265 - Age :  0 -- PV : 6
+	Id : 266 - Age :  0 -- PV : 6
+	Id : 267 - Age :  0 -- PV : 6
+	Id : 268 - Age :  0 -- PV : 6
+	Id : 269 - Age :  0 -- PV : 6
+	Id : 270 - Age :  0 -- PV : 6
+	Id : 271 - Age :  0 -- PV : 6
+	Id : 272 - Age :  0 -- PV : 6
+	Id : 273 - Age :  0 -- PV : 6
+	Id : 274 - Age :  0 -- PV : 6
+	Id : 275 - Age :  0 -- PV : 6
+	Id : 276 - Age :  0 -- PV : 6
+	Id : 277 - Age :  0 -- PV : 6
+	Id : 278 - Age :  0 -- PV : 6
+	Id : 279 - Age :  0 -- PV : 6
+	Id : 280 - Age :  0 -- PV : 6
+	Id : 281 - Age :  0 -- PV : 6
+	Id : 282 - Age :  0 -- PV : 6
+	Id : 283 - Age :  0 -- PV : 6
+	Id : 284 - Age :  0 -- PV : 6
+	Id : 285 - Age :  0 -- PV : 6
+	Id : 286 - Age :  0 -- PV : 6
+	Id : 287 - Age :  0 -- PV : 6
+	Id : 288 - Age :  0 -- PV : 6
+	Id : 289 - Age :  0 -- PV : 6
+	Id : 290 - Age :  0 -- PV : 6
+	Id : 291 - Age :  0 -- PV : 6
+	Id : 292 - Age :  0 -- PV : 6
+	Id : 293 - Age :  0 -- PV : 6
+	Id : 294 - Age :  0 -- PV : 6
+	Id : 295 - Age :  0 -- PV : 6
+	Id : 296 - Age :  0 -- PV : 6
+	Id : 297 - Age :  0 -- PV : 6
+	Id : 298 - Age :  0 -- PV : 6
+	Id : 299 - Age :  0 -- PV : 6
+	Id : 300 - Age :  0 -- PV : 6
+	Id : 301 - Age :  0 -- PV : 6
+	Id : 302 - Age :  0 -- PV : 6
+	Id : 303 - Age :  0 -- PV : 6
+	Id : 304 - Age :  0 -- PV : 6
+	Id : 305 - Age :  0 -- PV : 6
+	Id : 306 - Age :  0 -- PV : 6
+	Id : 307 - Age :  0 -- PV : 6
+	Id : 308 - Age :  0 -- PV : 6
+	Id : 309 - Age :  0 -- PV : 6
+	Id : 310 - Age :  0 -- PV : 6
+	Id : 311 - Age :  0 -- PV : 6
+	Id : 312 - Age :  0 -- PV : 6
+	Id : 313 - Age :  0 -- PV : 6
+	Id : 314 - Age :  0 -- PV : 6
+	Id : 315 - Age :  0 -- PV : 6
+	Id : 316 - Age :  0 -- PV : 6
+	Id : 317 - Age :  0 -- PV : 6
+	Id : 318 - Age :  0 -- PV : 6
+	Id : 319 - Age :  0 -- PV : 6
+	Id : 320 - Age :  0 -- PV : 6
