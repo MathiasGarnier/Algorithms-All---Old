@@ -1,0 +1,1 @@
+g++ src/main.cpp src/Cartesian2D.cpp src/Renderer.cpp src/Shape.cpp src/Wind.cpp src/World.cpp -std=c++11 -Wall -o windSimulation.exe

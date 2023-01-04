@@ -1,0 +1,14 @@
+http://documents.irevues.inist.fr/bitstream/handle/2042/53402/meteo_1994_5_54.pdf 
+http://www.techno-science.net/glossaire-definition/Vent-page-5.html 
+https://fr.wikipedia.org/wiki/%C3%89quations_primitives_atmosph%C3%A9riques 
+http://www.cder.dz/download/smee2010_17.pdf 
+http://wind-data.ch/tools/weibull.php?v0=2.75&v1=7.80&v2=11.64&v3=13.79&v4=14.20&v5=13.15&v6=11.14&v7=8.72&v8=6.34&v9=4.30&v10=2.73&v11=1.62&v12=0.91&v13=0.48&v14=0.24&v15=0.11&v16=0.05&v17=0.02&v18=0.01&v19=0.00&abfrage=Actualiser
+http://www.cis.rit.edu/class/simg716/handouts/06_notes_2Dfunctions.pdf
+https://en.wikipedia.org/wiki/List_of_common_coordinate_transformations
+https://en.wikipedia.org/wiki/Cartesian_coordinate_system
+http://eolienne.f4jr.org/eolienne_etude_theorique 
+https://fr.wikipedia.org/wiki/Masse_volumique_de_l%27air 
+https://gamedevelopment.tutsplus.com/tutorials/how-to-create-a-custom-2d-physics-engine-the-basics-and-impulse-resolution--gamedev-6331 
+http://box2d.org/manual.pdf 
+https://openclassrooms.com/forum/sujet/vector-lt-pairlt-string-intgt-gt-88647
+http://stackoverflow.com/questions/31789831/initialize-a-static-const-stdpairstring-vectorstring
