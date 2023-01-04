@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1453145167 source:c:\users\yapix\workspace\c++\cearthapi++\earth.cpp
+	<iostream>
+	"Earth.hpp"
+
+1453145284 source:c:\users\yapix\workspace\c++\cearthapi++\main.cpp
+	<iostream>
+	"Earth.hpp"
+
+1453145199 c:\users\yapix\workspace\c++\cearthapi++\earth.hpp
+	<iostream>
+	<string>
+
