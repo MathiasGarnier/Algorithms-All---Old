@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1470153336 source:c:\users\yapix\clionprojects\nms++\main.cpp
+	<iostream>
+	"World.h"
+
+1470221258 c:\users\yapix\clionprojects\nms++\world.h
+	<string>
+	<map>
+
