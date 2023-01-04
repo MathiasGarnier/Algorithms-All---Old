@@ -1,0 +1,25 @@
+CXXFLAGS = -Wall -std=c++11
+
+CPP_SOURCE = src/main.cpp
+CPP_HEADER = src/util.h src/otherutil.h
+OBJECTS    = $(CPP_SOURCE:.cpp=.o)
+
+main: $(OBJECTS)
+	g++ -o $@ $^
+
+main.o: src/main.cpp src/util.h
+util.o: src/util.h
+otherutil.o: src/otherutil.h
+
+# $@ -> cible
+# $^ -> liste de dépendance
+# $< -> première dépendance
+
+#main: main.o util.o
+#	g++ -o main main.o util.o
+
+#main.o: src/main.cpp src/util.h
+#	g++ -Wall -std=c++11 -c src/main.cpp
+
+#util.o: src/util.h
+#	g++ -Wall -std=++11 -c src/util.h
