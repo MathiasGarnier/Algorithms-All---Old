@@ -1,0 +1,12 @@
+-- Based on : name = "alias", state
+
+CAR_ENTRY = ("car_entry", false)
+ENTRY = ("entry", false)
+HOUSE = ("house", false)
+LIVING_ROOM = ("living_room", false)
+BEDROOM = ("bedroom", false)
+KITCHEN = ("kitchen", false)
+DINING_ROOM = ("dining_room", false)
+BATHROOM = ("bathroom", false)
+ATTIC = ("attic", false)
+GARDEN = ("garden", false)

@@ -1,0 +1,32 @@
+Une meilleure méthode : reachableDoor() -> Le faire grâce à un Grille virtuelle 3D. (Ne servirait pas tellement, si une génération procédurale de la Map est faite)
+Faire un système de client (username, password) pour accéder à sa panoplie de clés.
+Faire un gestionnaire de permission pour l'argument keyOwner du constructeur Key() : permettre l'accésibilité de certaines portes à certains utilisateurs.
+Créer un utilisateur root ayant accès à toutes les clés.
+Ajouter des paramètre pour le constructeur Key().
+Ajouter un petit coté d'Intelligence Artificielle : le programme pourra tourner seul avec une gestion + repercution des choix fait par une IA.
+Ajouter un petit coté statistique et génétique comme l'idée de l'Intelligence Artificielle.
+Créer un système de village avec pleins de maisons (et chaque famille d'IA aura sa maison...).
+Créer un système de génération procédurale de village.
+Possibilité pour les Intelligences Artificielles de s'échanger des clés.
+Un système de log de ce qu'il se passe.
+Une économie basée sur les clés (par exemple une clé qui ouvre deux portes vaudra 2 points, alors qu'une qui n'ouvre aucune porte ne vaudra aucun points).
+Une économie basé sur de l'argent virtuelle permettant aux Intelligences Artificielles de "faire leurs vies".
+Possibilité entre des Intelligences Artificielles vivant seule d'être en couple avec une autre IA et de faire sa vie dans une autre maison (ATTENTION : les deux IAs doivent être conssentantes).
+Possibilité de vendre sa maison contre des clés.
+Possibilité d'être à la rue.
+Possibilité de mourir ou d'avoir des enfants pour un couple ne vivant pas forcément dans une même maison.
+Possibilité que les clés se cassent, donc besoin d'aller chez un serrurier pour payer une nouvelle clés.
+Possibilité de se faire voler ses clés par des voleurs.
+Possibilité pour les IAs d'aller en prison et de perdre petit à petit leurs argents et leurs clés.
+
+
+
+
+Une API (en java) permettant d'intéragir avec le programme.
+Une API en "jeux" permettant d'intéragir avec le programme.
+
+
+
+
+DOCUMENTER AUSSI.
+Tout ceci est à un but éducatif.

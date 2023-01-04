@@ -1,0 +1,4 @@
+@TODO
+
+At Object/Key::equals, change this function to a template function.
+At Object/Place const initializer list, change this by a file configurator.
