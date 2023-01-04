@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1512768980 source:d:\users\garnier mathias\documents\programmation\temporary\main.cpp
+	<iostream>
+	"VersionManager.h"
+	"Place.h"
+	"Object.h"
+
+1512768480 d:\users\garnier mathias\documents\programmation\temporary\object.h
+	<type_traits>
+	<exception>
+	<typeinfo>
+	<iostream>
+
+1512763898 d:\users\garnier mathias\documents\programmation\temporary\versionmanager.h
+	<iostream>
+	"version.h"
+
+1512769021 d:\users\garnier mathias\documents\programmation\temporary\version.h
+
+1512767953 source:d:\users\garnier mathias\documents\programmation\temporary\key.cpp
+	"Key.h"
+
+1512766722 d:\users\garnier mathias\documents\programmation\temporary\key.h
+	<string>
+	"Place.h"
+
+1512768707 d:\users\garnier mathias\documents\programmation\temporary\place.h
+	<string>
+
+1512768617 source:d:\users\garnier mathias\documents\programmation\temporary\place.cpp
+	"Place.h"
+

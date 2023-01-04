@@ -1,0 +1,5 @@
+Added	Add std=c++11 compiler parameter
+New	Key.h /.cpp Place.h /.cpp
+Fixed	Object mistake of implementation
+Added	Program test
+Fixed	Reinterpret cast 
