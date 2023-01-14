@@ -3,10 +3,14 @@
 #   - suivre le tutoriel
 #   - modifier le fonctionnement pour commencer à comprendre
 #   - ajouter quelques fonctionnalités (fonction, tableau, lecture/écriture fichier...)
-# 
+#   - modifier les règles de grammaire pour faire un mini-assembleur (et comparer avec un vrai asm)
+#   - on ne peut pas redéfinir une même variable avec LET, écrire manière de rédéfinir (vérif existence label + update valeur)
 
 import sys
 import enum
+
+global DEBUG
+DEBUG = True
 
 class TokenType(enum.Enum):
 
@@ -80,7 +84,7 @@ class Lexer:
     #       (pour les variables, nombres et strings)
     #   - ajouter un ELSE, ENDELSE
     #   - ajouter un SWITCH case...
-    
+
     def __init__(self, input):
 
         self.source = input + "\n"
@@ -243,20 +247,276 @@ class Lexer:
         self.nextChar()
         return token
 
+class Parser:
+
+    """
+        Vérifier que la syntaxe soit correcte.
+        Prend en entrée suite de Tokens.
+        Retourne un arbre syntaxique.
+
+        Correspondence bijective entre les règles de grammaire et l'implémentation.
+    """
+
+    def __init__(self, lexer):
+        
+        self.lexer = lexer
+
+        self.symbols = set()
+        self.labelsDeclared = set()
+        self.labelsGotoed = set()
+
+        self.currentToken = None
+        self.peekToken = None
+
+        self.nextToken()    # Appeler deux fois pour initialiser le présent
+        self.nextToken()    # et le suivant.
+
+    # Renvoyer True si c'est le bon token.
+    def checkToken(self, kind):
+        
+        return kind == self.currentToken.kind
+
+    # Renvoyer True si le prochain token est le bon token.
+    # Permet (avec checkToken) de savoir quelle règle syntaxique
+    # doit être appliquée en fonction du présent token et du suivant.
+    def checkPeek(self, kind):
+        
+        return kind == self.peekToken.kind
+
+    # Attend en entrée un token spécifique sinon retourne une erreur.
+    def match(self, kind):
+        
+        if not self.checkToken(kind):
+            self.abort("Le token suivant \"" + kind.name + "\" était attendu (et non \"" + self.currentToken.kind.name + "\").")
+        
+        self.nextToken()
+
+    # Passe au token suivant.
+    def nextToken(self):
+
+        self.currentToken = self.peekToken
+        self.peekToken = self.lexer.getToken()
+
+    # Arrêt du programme.
+    def abort(self, message):
+        
+        sys.exit("Erreur lors du parsing. " + message)
+
+    """
+        Pour chaque règle de grammaire, on a une fonction.
+    """
+
+    # Nouvelle ligne
+    def nl(self):
+
+        if DEBUG: print("NEWLINE")
+
+        self.match(TokenType.NEWLINE)
+
+        while self.checkToken(TokenType.NEWLINE):
+            self.nextToken()
+
+    # Opérateur primaire (nombre ou identifieur)
+    def primary(self):
+
+        if DEBUG: print("PRIMAIRE (" + self.currentToken.text + ")")
+
+        if self.checkToken(TokenType.NUMBER):
+            
+            self.nextToken()
+
+        elif self.checkToken(TokenType.IDENT):
+
+            if self.currentToken.text not in self.symbols:
+                self.abort("Variable (" + self.currentToken.text + ") utilisée mais non déclarée")
+            self.nextToken()
+
+        else:
+            
+            self.abort("Token non attendu : " + self.currentToken.text + ".")
+
+    # Opérateur binaire (plus ou moins primaires)
+    def unary(self):
+
+        if DEBUG: print("UNAIRE")
+
+        if self.checkToken(TokenType.PLUS) or self.checkToken(TokenType.MINUS):
+            
+            self.nextToken()
+
+        self.primary()
+
+    # Opérateur arithmétique (fois ou divisé)
+    def term(self):
+
+        if DEBUG: print("TERME")
+        self.unary()
+
+        while self.checkToken(TokenType.ASTERISK) or self.checkToken(TokenType.SLASH):
+
+            self.nextToken()
+            self.unary()
+
+    # Opérateur arithmétique (plus ou moins)
+    def expression(self):
+
+        if DEBUG: print("EXPRESSION")
+        self.term()
+
+        while self.checkToken(TokenType.PLUS) or self.checkToken(TokenType.MINUS):
+
+            self.nextToken()
+            self.term()
+
+    # Est-ce un opérateur de comparaison ?
+    def isComparisonOperator(self):
+
+         return self.checkToken(TokenType.GT) or self.checkToken(TokenType.GTEQ) or self.checkToken(TokenType.LT) or self.checkToken(TokenType.LTEQ) or self.checkToken(TokenType.EQEQ) or self.checkToken(TokenType.NOTEQ)
+
+    # Comparaison sur les opérateurs arithmétiques
+    def comparison(self):
+        
+        if DEBUG: print("COMPARAISON")
+
+        self.expression()
+
+        if self.isComparisonOperator():
+            
+            self.nextToken()
+            self.expression()
+        
+        else:
+
+            self.abort("Opérateur de comparaison attendu : " + self.currentToken.text + ".")
+
+        while self.isComparisonOperator():
+
+            self.nextToken()
+            self.expression()
+
+    def statement(self):
+        
+        # PRINT
+        if self.checkToken(TokenType.PRINT):
+
+            if DEBUG: print("STATEMENT-PRINT")
+            self.nextToken()
+
+            if self.checkToken(TokenType.STRING):
+                self.nextToken()
+            else:
+                self.expression()
+
+        # IF ... THEN ... ENDIF
+        elif self.checkToken(TokenType.IF):
+
+            if DEBUG: print("STATEMENT-IF")
+            self.nextToken()
+            self.comparison()
+            
+            self.match(TokenType.THEN)
+            self.nl()
+
+            # Expression dans le STATEMENT-IF
+            while not self.checkToken(TokenType.ENDIF):
+                self.statement()
+
+            self.match(TokenType.ENDIF)
+
+        # WHILE ... REPEAT ... ENDWHILE
+        elif self.checkToken(TokenType.WHILE):
+
+            if DEBUG: print("STATEMENT-WHILE")
+            self.nextToken()
+            self.comparison()
+
+            self.match(TokenType.REPEAT)
+            self.nl()
+
+            # Expression dans le STATEMENT-WHILE
+            while not self.checkToken(TokenType.ENDWHILE):
+                self.statement()
+
+            self.match(TokenType.ENDWHILE)
+
+        # LABEL
+        elif self.checkToken(TokenType.LABEL):
+            
+            if DEBUG: print("STATEMENT-LABEL")
+            self.nextToken()
+
+            # Vérifier que le label n'existe pas déjà
+            if self.currentToken.text in self.labelsDeclared:
+                self.abort("Le label \"" + self.currentToken.text + "\" existe déjà.")
+            
+            self.labelsDeclared.add(self.currentToken.text)
+
+            self.match(TokenType.IDENT)
+
+        # GOTO
+        elif self.checkToken(TokenType.GOTO):
+
+            if DEBUG: print("STATEMENT-GOTO")
+            self.nextToken()
+
+            # Pas besoin de vérifier si le label goto existe déjà.
+            self.labelsGotoed.add(self.currentToken.text)
+
+            self.match(TokenType.IDENT)
+
+        # LET ... = ...
+        elif self.checkToken(TokenType.LET):
+
+            if DEBUG: print("STATEMENT-LET")
+            self.nextToken()
+
+            if self.currentToken.text not in self.symbols:
+                self.symbols.add(self.currentToken.text)
+
+            self.match(TokenType.IDENT)
+            self.match(TokenType.EQ)
+            self.expression()
+
+        # INPUT
+        elif self.checkToken(TokenType.INPUT):
+
+            if DEBUG: print("STATEMENT-INPUT")
+            self.nextToken()
+
+            if self.currentToken.text not in self.symbols:
+                self.symbols.add(self.currentToken.text)
+
+            self.match(TokenType.IDENT)
+
+        else:
+            self.abort("Expression invalide : " + self.currentToken.text + " (" + self.currentToken.kind.name + ").")
+        
+        self.nl()
+
+    def start(self):
+        
+        while self.checkToken(TokenType.NEWLINE):
+            self.nextToken()
+
+        while not self.checkToken(TokenType.EOF):
+            self.statement()
+
+        for label in self.labelsGotoed:
+            if label not in self.labelsDeclared:
+                self.abort("Le label (GOTO) : " + label + " n'a pas été déclaré.")
 
 def main():
 
-    input = """+-*/>> 5 6.22 7 8 ==!= # je suis un 545 c"ommentaire"
-    + - "Un string !  123546 87 554 s+" /=
-    +- \"This is a string\" 55 # This is a comment!\n */
-    foo THEN IF ELSE ENDIF enDIF"""
+    if len(sys.argv) != 2:
+        sys.exit("Erreur: TinyComp 1 a besoin d'un fichier à compiler.")
     
-    lexer = Lexer(input)
-    token = lexer.getToken()
+    with open(sys.argv[1], 'r') as input_file:
 
-    while token.kind != TokenType.EOF:
+        input = input_file.read()
+    
+        lexer = Lexer(input)
+        parser = Parser(lexer)
 
-        print(token.kind)
-        token = lexer.getToken()
+        parser.start()
 
 main()
