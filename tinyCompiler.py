@@ -10,7 +10,7 @@
 # [ ] Gérer un système d'expressions plus compliqué (parenthèses, priorité...)
 # [ ] ELSE IF & ELSE
 # [ ] SWITCH & CASE
-# [ ] FOR (utiliser un GOTO ?)
+# [*] FOR
 # [ ] Opérateurs logiques
 # [ ] Améliorer les messages d'erreur / avertissement du compilateur
 # [ ] Plusieurs fichiers qui s'imbriquent
@@ -53,6 +53,10 @@ class TokenType(enum.Enum):
 	WHILE = 109
 	REPEAT = 110
 	ENDWHILE = 111
+	FOR = 112
+	DO = 113
+	ENDFOR = 114
+	PRINTL = 115
 
 	# Opérateurs
 	EQ = 201  
@@ -96,6 +100,8 @@ class Lexer:
         Nombres (entiers ou décimaux).
         Identifieurs (variables).
         Mots clefs (LABEL, GOTO, PRINT, INPUT, LET, IF, THEN, ENDIF, WHILE, REPEAT, ENDWHILE).
+            AJOUT : FOR ... DO ... ENDFOR
+                    PRINTL
     """
 
     # @TODO : 
@@ -436,7 +442,21 @@ class Parser:
                 self.emitter.emitLine("\tprintf(\"" + self.currentToken.text + "\");")
                 self.nextToken()
             else:
-                self.emitter.emit("\tprintf(\"%.2f\", (float) (")
+                self.emitter.emit("\tprintf(\"%f\", (float) (")
+                self.expression()
+                self.emitter.emitLine("));")
+
+        # PRINTL
+        elif self.checkToken(TokenType.PRINTL):
+
+            if DEBUG: print("STATEMENT-PRINTL")
+            self.nextToken()
+
+            if self.checkToken(TokenType.STRING):
+                self.emitter.emitLine("\tprintf(\"" + self.currentToken.text + "\\n \");")
+                self.nextToken()
+            else:
+                self.emitter.emit("\tprintf(\"%f\\n \", (float) (")
                 self.expression()
                 self.emitter.emitLine("));")
 
@@ -476,6 +496,29 @@ class Parser:
                 self.statement()
 
             self.match(TokenType.ENDWHILE)
+            self.emitter.emitLine("\t}")
+
+        # FOR ... DO ... ENDFOR
+        elif self.checkToken(TokenType.FOR):
+
+            if DEBUG: print("STATEMENT-FOR")
+            self.nextToken()
+
+            varTok = self.currentToken.text
+
+            self.emitter.emit("\tfor(" + varTok + "; ")
+            self.comparison()
+            self.emitter.emit("; ++" + varTok)
+            
+            self.match(TokenType.DO)
+            self.nl()
+            self.emitter.emitLine(") {")
+
+            while not self.checkToken(TokenType.ENDFOR):
+                self.emitter.emit("\t")
+                self.statement()
+
+            self.match(TokenType.ENDFOR)
             self.emitter.emitLine("\t}")
 
         # LABEL
@@ -538,7 +581,9 @@ class Parser:
             self.match(TokenType.IDENT)
 
         else:
-            self.abort("Expression invalide : " + self.currentToken.text + " (" + self.currentToken.kind.name + ").")
+
+            tmpGetError = self.lexer.source[0 : self.lexer.currentPos]
+            self.abort("Expression invalide : " + self.currentToken.text + " (" + self.currentToken.kind.name + "; ligne " + str(tmpGetError.count("\n")) + ").")
         
         self.nl()
 
