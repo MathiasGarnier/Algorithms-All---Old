@@ -6,6 +6,11 @@
 #   - modifier les règles de grammaire pour faire un mini-assembleur (et comparer avec un vrai asm)
 #   - on ne peut pas redéfinir une même variable avec LET, écrire manière de rédéfinir (vérif existence label + update valeur)
 
+# Le truc chiant est que c'est plus un "traducteur" qu'un réel compilateur ?
+# "our compiler will be platform independent without dealing with assembly code or complex compiler frameworks."
+# Gné...
+# Comment faire autrement ?
+
 import sys
 import enum
 
@@ -257,9 +262,10 @@ class Parser:
         Correspondence bijective entre les règles de grammaire et l'implémentation.
     """
 
-    def __init__(self, lexer):
+    def __init__(self, lexer, emitter):
         
         self.lexer = lexer
+        self.emitter = emitter
 
         self.symbols = set()
         self.labelsDeclared = set()
@@ -322,13 +328,16 @@ class Parser:
         if DEBUG: print("PRIMAIRE (" + self.currentToken.text + ")")
 
         if self.checkToken(TokenType.NUMBER):
-            
+
+            self.emitter.emit(self.currentToken.text)            
             self.nextToken()
 
         elif self.checkToken(TokenType.IDENT):
 
             if self.currentToken.text not in self.symbols:
                 self.abort("Variable (" + self.currentToken.text + ") utilisée mais non déclarée")
+            
+            self.emitter.emit(self.currentToken.text)            
             self.nextToken()
 
         else:
@@ -341,7 +350,8 @@ class Parser:
         if DEBUG: print("UNAIRE")
 
         if self.checkToken(TokenType.PLUS) or self.checkToken(TokenType.MINUS):
-            
+
+            self.emitter.emit(self.currentToken.text)
             self.nextToken()
 
         self.primary()
@@ -353,7 +363,8 @@ class Parser:
         self.unary()
 
         while self.checkToken(TokenType.ASTERISK) or self.checkToken(TokenType.SLASH):
-
+            
+            self.emitter.emit(self.currentToken.text)
             self.nextToken()
             self.unary()
 
@@ -364,7 +375,8 @@ class Parser:
         self.term()
 
         while self.checkToken(TokenType.PLUS) or self.checkToken(TokenType.MINUS):
-
+            
+            self.emitter.emit(self.currentToken.text)
             self.nextToken()
             self.term()
 
@@ -382,6 +394,7 @@ class Parser:
 
         if self.isComparisonOperator():
             
+            self.emitter.emit(" " + self.currentToken.text + " ")
             self.nextToken()
             self.expression()
         
@@ -391,6 +404,7 @@ class Parser:
 
         while self.isComparisonOperator():
 
+            self.emitter.emit(self.currentToken.text)
             self.nextToken()
             self.expression()
 
@@ -403,41 +417,50 @@ class Parser:
             self.nextToken()
 
             if self.checkToken(TokenType.STRING):
+                self.emitter.emitLine("\tprintf(\"" + self.currentToken.text + "\");")
                 self.nextToken()
             else:
+                self.emitter.emit("\tprintf(\"%.2f\", (float) (")
                 self.expression()
+                self.emitter.emitLine("));")
 
         # IF ... THEN ... ENDIF
         elif self.checkToken(TokenType.IF):
 
             if DEBUG: print("STATEMENT-IF")
             self.nextToken()
+            self.emitter.emit("\tif(")
             self.comparison()
             
             self.match(TokenType.THEN)
             self.nl()
+            self.emitter.emitLine(") {")
 
             # Expression dans le STATEMENT-IF
             while not self.checkToken(TokenType.ENDIF):
                 self.statement()
 
             self.match(TokenType.ENDIF)
+            self.emitter.emitLine("\t}")
 
         # WHILE ... REPEAT ... ENDWHILE
         elif self.checkToken(TokenType.WHILE):
 
             if DEBUG: print("STATEMENT-WHILE")
             self.nextToken()
+            self.emitter.emit("\twhile(")
             self.comparison()
 
             self.match(TokenType.REPEAT)
             self.nl()
+            self.emitter.emitLine(") {")
 
             # Expression dans le STATEMENT-WHILE
             while not self.checkToken(TokenType.ENDWHILE):
                 self.statement()
 
             self.match(TokenType.ENDWHILE)
+            self.emitter.emitLine("\t}")
 
         # LABEL
         elif self.checkToken(TokenType.LABEL):
@@ -451,6 +474,7 @@ class Parser:
             
             self.labelsDeclared.add(self.currentToken.text)
 
+            self.emitter.emitLine("\t" + self.currentToken.text + ":")  # pourquoi ":" ?
             self.match(TokenType.IDENT)
 
         # GOTO
@@ -461,7 +485,7 @@ class Parser:
 
             # Pas besoin de vérifier si le label goto existe déjà.
             self.labelsGotoed.add(self.currentToken.text)
-
+            self.emitter.emitLine("\tgoto " + self.currentToken.text + ";")
             self.match(TokenType.IDENT)
 
         # LET ... = ...
@@ -472,10 +496,13 @@ class Parser:
 
             if self.currentToken.text not in self.symbols:
                 self.symbols.add(self.currentToken.text)
+                self.emitter.headerLine("\tfloat " + self.currentToken.text + ";")
 
+            self.emitter.emit("\t" + self.currentToken.text + " = ")
             self.match(TokenType.IDENT)
             self.match(TokenType.EQ)
             self.expression()
+            self.emitter.emitLine(";")
 
         # INPUT
         elif self.checkToken(TokenType.INPUT):
@@ -485,7 +512,13 @@ class Parser:
 
             if self.currentToken.text not in self.symbols:
                 self.symbols.add(self.currentToken.text)
+                self.emitter.headerLine("\tfloat " + self.currentToken.text + ";")
 
+            self.emitter.emitLine("\tif(0 == scanf(\"%" + "f\", &" + self.currentToken.text + ")) {")
+            self.emitter.emitLine("\t" + self.currentToken.text + " = 0;")
+            self.emitter.emit("\tscanf(\"%")
+            self.emitter.emitLine("*s\");")
+            self.emitter.emitLine("\t}")
             self.match(TokenType.IDENT)
 
         else:
@@ -495,17 +528,58 @@ class Parser:
 
     def start(self):
         
+        self.emitter.headerLine("#include <stdio.h>")
+        self.emitter.headerLine("")
+        self.emitter.headerLine("int main(void) {")
+        self.emitter.headerLine("")
+        
         while self.checkToken(TokenType.NEWLINE):
             self.nextToken()
 
         while not self.checkToken(TokenType.EOF):
             self.statement()
 
+        self.emitter.emitLine("\treturn 0;")
+        self.emitter.emitLine("}")
+        
         for label in self.labelsGotoed:
             if label not in self.labelsDeclared:
                 self.abort("Le label (GOTO) : " + label + " n'a pas été déclaré.")
 
+class Emitter:
+    
+    """
+        Ne sert qu'à des manipulations de String.
+        Plus une interface pour se simplifier la vie qu'autre chose.
+    """
+
+    def __init__(self, fullPath):
+        
+        self.fullPath = fullPath
+
+        self.header = ""
+        self.code = ""
+
+    def emit(self, code):
+
+        self.code += code
+
+    def emitLine(self, code):
+
+        self.code += code + "\n"
+
+    def headerLine(self, code):
+
+        self.header += code + "\n"
+
+    def writeFile(self):
+
+        with open(self.fullPath, "w") as outputFile:
+            outputFile.write(self.header + self.code)
+
 def main():
+
+    PATH = "C:\\Users\\mathi\\Onedrive\\Bureau\\phys\\TinyComp\\"
 
     if len(sys.argv) != 2:
         sys.exit("Erreur: TinyComp 1 a besoin d'un fichier à compiler.")
@@ -515,8 +589,10 @@ def main():
         input = input_file.read()
     
         lexer = Lexer(input)
-        parser = Parser(lexer)
+        emitter = Emitter("out.c")
+        parser = Parser(lexer, emitter)
 
         parser.start()
+        emitter.writeFile()
 
 main()
