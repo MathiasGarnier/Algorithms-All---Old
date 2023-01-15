@@ -6,6 +6,22 @@
 #   - modifier les règles de grammaire pour faire un mini-assembleur (et comparer avec un vrai asm)
 #   - on ne peut pas redéfinir une même variable avec LET, écrire manière de rédéfinir (vérif existence label + update valeur)
 
+# Liste reprise de la partie trois du tutoriel 
+# [ ] Gérer un système d'expressions plus compliqué (parenthèses, priorité...)
+# [ ] ELSE IF & ELSE
+# [ ] SWITCH & CASE
+# [ ] FOR (utiliser un GOTO ?)
+# [ ] Opérateurs logiques
+# [ ] Améliorer les messages d'erreur / avertissement du compilateur
+# [ ] Plusieurs fichiers qui s'imbriquent
+# [ ] FUNCTION & LAMBDA
+# [ ] D'autres types primitifs (string, int, bool, ...; auto)
+# [ ] tableaux
+# [ ] Sorte de système de classe / structure
+
+# On n'y est pas encore aux optimisations compilateurs.
+# Je vais juste essayer de voir comment ça se passe sur d'autres projets avant d'aller plus loin. Et va falloir penser à abandonner le Python et passer au C / C++ ou ASM ...
+
 # Le truc chiant est que c'est plus un "traducteur" qu'un réel compilateur ?
 # "our compiler will be platform independent without dealing with assembly code or complex compiler frameworks."
 # Gné...
