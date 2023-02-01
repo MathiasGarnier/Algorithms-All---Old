@@ -44,7 +44,7 @@ def estim_2_2(n):
 
     gamma = 0.5772156649015328
     
-    return np.log(n + 1) + gamma - 1/(2 * n) + 1 /(3 * n**2)
+    return np.log(n + 1) + gamma - 1/(2 * n) + 1 /(6 * n**2)
 
 def plot_curves():
     
