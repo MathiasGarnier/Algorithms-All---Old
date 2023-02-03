@@ -6,8 +6,10 @@
 #include <iostream>
 #include <stdexcept>
 #include <cstdlib>
+#include <optional>
 
 #include <vector>
+#include <map>
 
 class HelloTriangleApplication {
 
@@ -17,7 +19,9 @@ class HelloTriangleApplication {
     // so it's good to be explicit about the lifetime of objects to learn how the API works."
     // "RAII is the recommended model for larger Vulkan programs, but for learning purposes 
     // it's always good to know what's going on behind the scenes."
-
+    // "It has been briefly touched upon before that almost every operation in Vulkan, 
+    // anything from drawing to uploading textures, requires commands to be submitted to a queue." 
+    
     // "Because Vulkan requires you to be very explicit about everything you're doing, 
     // it's easy to make many small mistakes like using a new GPU feature and forgetting 
     // to request it at logical device creation time."
@@ -27,6 +31,8 @@ class HelloTriangleApplication {
     // plus tard pour une implémentation pratique.
     //  VK_ERROR_LAYER_NOT_PRESENT  --> PLUS TARD
     // Revenir sur la section "Message callback" (et suivantes) plus tard (en temps voulu)
+
+    // PhysicalDevice puis LogicalDevice (pour parler (interface ?) au PhysicalDevice ?) 
 
     public:
         
@@ -43,8 +49,25 @@ class HelloTriangleApplication {
         GLFWwindow* window;
         VkInstance instance;
 
+        VkPhysicalDevice physicalDevice = VK_NULL_HANDLE; // Carte graphique que l'on va utiliser.
+        VkDevice logicalDevice;
+        VkQueue graphicsqueue;
+
         const uint32_t WIDTH = 1260;
         const uint32_t HEIGHT = 720;
+
+        // Va falloir travailler la logique de "queue".
+        // Pas évidente du tout.
+        // NB "Device queues are implictly cleaned when the service is destroyed."
+        struct QueueFamilyIndices {
+
+            std::optional<uint32_t> graphicsfamily;
+
+            bool isComplete() {
+                return graphicsfamily.has_value();
+            }
+        };
+
 
         void initWindow() {
 
@@ -60,6 +83,7 @@ class HelloTriangleApplication {
 
             createInstance();
             pickPhysicalDevice();
+            createLogicalDevice();
         }
 
         void mainLoop() {
@@ -72,6 +96,8 @@ class HelloTriangleApplication {
 
         void cleanup() {
 
+            // D'abord détruire le device... et ensuite l'instance !
+            vkDestroyDevice(logicalDevice, nullptr);
             vkDestroyInstance(instance, nullptr);
 
             glfwDestroyWindow(window);
@@ -119,8 +145,6 @@ class HelloTriangleApplication {
 
         void pickPhysicalDevice() {
 
-            VkPhysicalDevice physicalDevice = VK_NULL_HANDLE; // Carte graphique que l'on va utiliser.
-
             uint32_t deviceCount = 0;
             vkEnumeratePhysicalDevices(instance, &deviceCount, nullptr);
 
@@ -144,16 +168,116 @@ class HelloTriangleApplication {
                 
                 throw std::runtime_error("Impossible de trouver un GPU adéquat.");
             }
+
+            // Use an ordered map to automatically sort candidates by increasing score
+            // std::multimap<int, VkPhysicalDevice> candidates;
+            //
+            //for (const auto& device : devices) {
+            //    int score = rateDeviceSuitability(device);        // Écrire une fonction pour donner une note !
+            //    candidates.insert(std::make_pair(score, device));
+            //}
+            //
+            //// Check if the best candidate is suitable at all
+            //if (candidates.rbegin()->first > 0) {
+            //    physicalDevice = candidates.rbegin()->second;
+            //}
+            //else {
+            //    throw std::runtime_error("failed to find a suitable GPU!");
+            //}
+
         }
+
 
         bool isDeviceSuitable(VkPhysicalDevice device) {
 
-            // On vérifie sur la carte graphique est capable de faire ce qu'on
-            // lui demande.
+            // On vérifie sur le GPU est capable de faire ce qu'on lui demande.
+            //
+            //VkPhysicalDeviceProperties deviceproperties; // Vérifier propriétés
+            //VkPhysicalDeviceFeatures devicefeatures;
+            //
+            //vkGetPhysicalDeviceProperties(device, &deviceproperties);
+            //vkGetPhysicalDeviceFeatures(device, &devicefeatures); // regarder dans vulkan_core.h pour tout un
+            //                                                      // tas d'autres propriétés à regarder
+            //
+            //// VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU :
+            ////          The device is typically a separate processor connected to the host via an interlink.
+            //// VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU :     --> celui que j'ai
+            ////          The device is typically one embedded in or tightly coupled with the host.
+            //
+            //return deviceproperties.deviceType == VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU &&
+            //    devicefeatures.geometryShader;
+            
+            //return true;
 
-            return true;
+            QueueFamilyIndices indices = findQueueFamilies(device); // vérifier que le device est bien capable de faire
+                                                                    // des "opérations graphiques" (VK_QUEUE_GRAPHICS_BIT)
+
+            return indices.isComplete();
+            }
+
+        QueueFamilyIndices findQueueFamilies(VkPhysicalDevice device) {
+            // Logic to find queue family indices to populate struct with.
+            QueueFamilyIndices indices;
+
+            uint32_t queueFamilyCount = 0;
+            vkGetPhysicalDeviceQueueFamilyProperties(device, &queueFamilyCount, nullptr);
+
+            std::vector<VkQueueFamilyProperties> queueFamilies(queueFamilyCount);
+            vkGetPhysicalDeviceQueueFamilyProperties(device, &queueFamilyCount, queueFamilies.data());
+
+            int i = 0;
+            for (const auto& queueFamily : queueFamilies) {
+                if (queueFamily.queueFlags & VK_QUEUE_GRAPHICS_BIT) {
+                    // va falloir comprendre l'arithmétique binaire (le "&" ok)
+                    //VK_QUEUE_GRAPHICS_BIT -> 0x00000100 : specifies that queues in this queue family 
+                    // support graphics operations.
+
+                    indices.graphicsfamily = i;
+                }
+
+                if (indices.isComplete()) { // S'il a déjà une valeur, pas besoin d'aller plus loin. Et on passe au suivant...
+                    break;
+                }
+                i++;
+            }
+            return indices;
         }
+
+        void createLogicalDevice() {
+
+            QueueFamilyIndices indices = findQueueFamilies(physicalDevice); // WOOOOW
+
+            VkDeviceQueueCreateInfo queuecreateInfo{};
+            float queuePriority = 1.0f;
+
+            queuecreateInfo.sType = VK_STRUCTURE_TYPE_DEVICE_QUEUE_CREATE_INFO;
+            queuecreateInfo.queueFamilyIndex = indices.graphicsfamily.value();
+            queuecreateInfo.queueCount = 1;
+            queuecreateInfo.pQueuePriorities = &queuePriority;
+
+            // Définir l'ensemble des fonctionnalités que l'on souhaite pouvoir utiliser :
+            // (pas besoin de grand chose pour l'instant, mis à part geometryShader...)
+            VkPhysicalDeviceFeatures deviceFeatures{};
+
+            VkDeviceCreateInfo createinfo{};
+
+            createinfo.sType = VK_STRUCTURE_TYPE_DEVICE_CREATE_INFO;
+            createinfo.pQueueCreateInfos = &queuecreateInfo;
+            createinfo.queueCreateInfoCount = 1;
+            createinfo.pEnabledFeatures = &deviceFeatures; // fonctionnaltiés
+
+            // Il y a toute une partie sur les validation layers que j'ai skippé...
+            // (y revenir plus tard...)
+
+            if (vkCreateDevice(physicalDevice, &createinfo, nullptr, &logicalDevice) != VK_SUCCESS) {
+                throw std::runtime_error("Impossible de créer un logical device.");
+            }
+
+            vkGetDeviceQueue(logicalDevice, indices.graphicsfamily.value(), 0, &graphicsqueue);
+        }
+
 };
+
 
 int main() {
 
