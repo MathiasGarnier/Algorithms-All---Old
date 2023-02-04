@@ -16,6 +16,8 @@
 #include <map>
 #include <set>
 
+#include <fstream>
+
 // Et putain je n'ai même pas fait les verification layers.
 
 class HelloTriangleApplication {
@@ -47,7 +49,42 @@ class HelloTriangleApplication {
     // "An image view is sufficient to start using an image as a texture, but it's not quite ready to be 
     // used as a render target just yet. That requires one more step of indirection, known as a framebuffer. 
     // But first we'll have to set up the graphics pipeline."
-
+    //
+    // "The graphics pipeline is the sequence of operations that take the vertices and textures of your 
+    // meshes all the way to the pixels in the render targets."
+    // https://vulkan-tutorial.com/images/vulkan_simplified_pipeline.svg
+    // vertex/index buffer => input assembler > vertex shader > tesselation > geometry shader > rasterization >
+    // > fragment shader > color blending => frame buffer
+    //      (*) The input assembler collects the raw vertex data from the buffers you specify and may also use 
+    // an index buffer to repeat certain elements without having to duplicate the vertex data itself.
+    //      (*) The vertex shader is run for every vertexand generally applies transformations to turn vertex 
+    // positions from model space to screen space.It also passes per - vertex data down the pipeline.
+    //      (*) The tessellation shaders allow you to subdivide geometry based on certain rules to increase 
+    // the mesh quality.This is often used to make surfaces like brick walls and staircases look less flat 
+    // when they are nearby.
+    //      (*) The geometry shader is run on every primitive(triangle, line, point) and can discard it or 
+    // output more primitives than came in.This is similar to the tessellation shader, but much more flexible. 
+    // However, it is not used much in today's applications because the performance is not that good on most 
+    // graphics cards except for Intel's integrated GPUs.
+    //      (*) The rasterization stage discretizes the primitives into fragments.These are the pixel elements 
+    // that they fill on the framebuffer.Any fragments that fall outside the screen are discarded and the 
+    // attributes outputted by the vertex shader are interpolated across the fragments, as shown in the figure. 
+    // Usually the fragments that are behind other primitive fragments are also discarded here because of depth 
+    // testing.
+    //      (*) The fragment shader is invoked for every fragment that survivesand determines which 
+    // framebuffer(s) the fragments are written toand with which colorand depth values.It can do this using 
+    // the interpolated data from the vertex shader, which can include things like texture coordinatesand 
+    // normals for lighting.
+    //      (*) The color blending stage applies operations to mix different fragments that map to the same 
+    // pixel in the framebuffer.Fragments can simply overwrite each other, add up or be mixed based upon 
+    // transparency.
+    // "The graphics pipeline in Vulkan is almost completely immutable, so you must recreate the pipeline 
+    // from scratch if you want to change shaders, bind different framebuffers or change the blend function. 
+    // The disadvantage is that you'll have to create a number of pipelines that represent all of the different
+    // combinations of states you want to use in your rendering operations. However, because all of the 
+    // operations you'll be doing in the pipeline are known in advance, the driver can optimize for it much 
+    // better."
+    //
 
 
 
@@ -150,6 +187,7 @@ class HelloTriangleApplication {
             createLogicalDevice();
             createSwapChain();
             createImageViews();
+            createGraphicsPipeline();
         }
 
         void mainLoop() {
@@ -648,6 +686,77 @@ class HelloTriangleApplication {
                     throw std::runtime_error("Impossible de créer une ImageView.");
                 }
             }
+        }
+
+        static std::vector<char> readFile(const std::string& filename) {
+
+            std::ifstream file(filename, std::ios::ate | std::ios::binary);
+
+            if (!file.is_open()) {
+                throw std::runtime_error("Impossible d'ouvrir le fichier.");
+            }
+
+            size_t fileSize = (size_t)file.tellg();
+            std::vector<char> buffer(fileSize);
+
+            file.seekg(0);
+            file.read(buffer.data(), fileSize);
+
+            file.close();
+            // std::cout << buffer.size() << "\n"; // TUDO BEM
+            return buffer;
+        }
+
+        VkShaderModule createShaderModule(const std::vector<char>& code) {
+
+            VkShaderModuleCreateInfo createinfo{};
+
+            createinfo.sType = VK_STRUCTURE_TYPE_SHADER_MODULE_CREATE_INFO;
+            createinfo.codeSize = code.size();
+            createinfo.pCode = reinterpret_cast<const uint32_t*>(code.data());
+
+            VkShaderModule shaderModule;
+
+            if (vkCreateShaderModule(logicalDevice, &createinfo, nullptr, &shaderModule) != VK_SUCCESS) {
+                throw std::runtime_error("Impossible de créer un ShaderModule.");
+            }
+
+            return shaderModule;
+        }
+
+        void createGraphicsPipeline() {
+
+            // Ca va chier.
+
+            auto vertShaderCode = readFile("vert.spv");
+            auto fragShaderCode = readFile("frag.spv");
+
+            // std::cout << vertShaderCode.size() << "\n"; // TUDO BEM
+            // std::cout << fragShaderCode.size() << "\n"; // TUDO BEM
+
+            VkShaderModule vertShaderModule = createShaderModule(vertShaderCode);
+            VkShaderModule fragShaderModule = createShaderModule(fragShaderCode);
+
+            VkPipelineShaderStageCreateInfo vertShaderStageInfo{};
+
+            vertShaderStageInfo.sType = VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO;
+            vertShaderStageInfo.stage = VK_SHADER_STAGE_VERTEX_BIT; // tell Vulkan in which pipeline 
+                                                                    // stage the shader is going to be used. 
+            vertShaderStageInfo.module = vertShaderModule;
+            vertShaderStageInfo.pName = "main";
+
+            VkPipelineShaderStageCreateInfo fragShaderStageInfo{};
+
+            fragShaderStageInfo.sType = VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO;
+            fragShaderStageInfo.stage = VK_SHADER_STAGE_FRAGMENT_BIT;
+            fragShaderStageInfo.module = fragShaderModule;
+            fragShaderStageInfo.pName = "main";
+
+            VkPipelineShaderStageCreateInfo shaderStages[] = { vertShaderStageInfo, fragShaderStageInfo };
+
+
+            vkDestroyShaderModule(logicalDevice, vertShaderModule, nullptr);
+            vkDestroyShaderModule(logicalDevice, fragShaderModule, nullptr);
         }
 };
 
