@@ -10,12 +10,20 @@ struct IRPC_Var {
 
 struct IRPC_Var program = {0, {}};
 
+#define is_function_found(function)  bool found = false; \
+                                     for(int i = 0; i < program.fun_number + 1; i++) {\
+                                        if (strstr(program.var_name[i], function) != NULL) {\
+                                            found = true;\
+                                        }\
+                                     }
+
 #define get_name(var) #var
-#define not_already_definedFun(function) strstr(program.var_name, function) == NULL
+
 
 #define __PROVIDER__(typefun, function) typefun function() {\
                                             char* function_name = get_name(function);\
-                                            if (not_already_definedFun(function_name)) {\
+                                            is_function_found(function_name)\
+                                            if (!found) {\
                                                 program.fun_number += 1;\
                                                 strcat(program.var_name[program.fun_number - 1], function_name);}\
                                         
@@ -36,7 +44,7 @@ __PROVIDER__( char*, unAutreText )
 
 __PROVIDER__( char*, unAutreTexte )
 
-    char* val = "Je suis un autre texte";
+    char* val = "Je suis un autre textFOIHGEDIOe";
     
     __RETURN__(val)
 
@@ -44,15 +52,16 @@ __PROVIDER__( char*, unAutreTexte )
 
 int main() {
     
-    printf("%s", text());
-    printf("%s\n", unAutreText());
-    printf("%s\n", unAutreText());
-    printf("%s\n", unAutreText());
-    printf("%s\n", unAutreTexte());
+    char* s1 = text();
+    char* s2 = text();
+    char* s3 = unAutreText();
+    char* s4 = unAutreText();
+    char* s5 = unAutreText();
+    char* s6 = unAutreTexte();
 
     printf("\nNombre de variables : %d", program.fun_number);
     for (int i = 0; i < program.fun_number; i++) {
-        printf("\nNom de la variable numéro %d : %s", program.fun_number, program.var_name[i]);
+        printf("\nNom de la variable numéro %d : %s", i, program.var_name[i]);
     }
 
     return 0;
