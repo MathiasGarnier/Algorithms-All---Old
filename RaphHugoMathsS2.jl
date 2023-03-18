@@ -8,7 +8,7 @@
 # * Une fois le problème de la fonction réglée -> Accepter une fonction écrite en latex
 
 primVal = 0
-lastVal = 1
+lastVal = 6
 
 using GLMakie
 using PlotlyJS # To get the function minimum and maximum
@@ -65,7 +65,6 @@ end
 function g_1(x)
     return x * sin(x)
 end
-
 function g_2(x)
     return x^2
 end
@@ -74,7 +73,7 @@ end
 ax = Axis(fig[1, 1:10])
 lines!(ax, xs, g_1.(xs), label="x")
 #lines!(ax, xs, g_2.(xs), label="x^2")
-lines!(ax, xs, @lift(sum([g_1(k / getindex($slider_val)) .* binomial(getindex($slider_val), k) .* xs .^ (getindex($slider_val) - k) .* (1 .- xs) .^ k; for k in 0:getindex($slider_val)])), label="APPROX")
+lines!(ax, xs, @lift(sum([g_1(k / getindex($slider_val)) .* binomial(getindex($slider_val), k) .* xs .^ k .* (1 .- xs) .^ (getindex($slider_val) - k); for k in 0:getindex($slider_val)])), label="APPROX")
 
 #x= sum([@lift(binomial($slider_val[], k) .* xs .^($slider_val[] - k) .* (1 - xs) .^ k); for k in 0:$slider_val[]])
 
@@ -82,7 +81,7 @@ lines!(ax, xs, @lift(sum([g_1(k / getindex($slider_val)) .* binomial(getindex($s
 #l2=lines(fig[1, 1:10], xs, fPlot())
 
 xlims!(primVal, lastVal)
-ylims!(0, 1)
+ylims!(-2, 2)
 
 axislegend()
 
