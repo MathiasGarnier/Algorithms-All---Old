@@ -70,26 +70,6 @@ function g_2(x)
     return x^2
 end
 
-function bernstein_poly(x, order)
-
-    res = []
-    for k in 0:order
-        append!(res, binomial(order, k) .* x^(order .- k) .* (1 .- x) .^k)
-    end
-
-    return res
-end
-
-function bernstein_func(x, order)
-
-    res = []
-    for k in 0:order
-        res += g_1.(k / order) .* bernstein_poly.(x, order)
-    end
-    println(res)
-    return res
-end
-
 
 ax = Axis(fig[1, 1:10])
 lines!(ax, xs, g_1.(xs), label="x")
