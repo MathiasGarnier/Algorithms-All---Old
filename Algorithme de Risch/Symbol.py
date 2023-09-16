@@ -10,6 +10,8 @@ class Symbol:
         self.isVar = False
         self.isFunc = False
 
+        self.value = None
+
         self.composedOf = [self]
 
     def print_status(self):
@@ -35,6 +37,14 @@ class Symbol:
 
             self.symName = fun_name
             self.symType = type(self)
+
+    def to_int(self):
+        print(type(self.symName))
+        if isinstance(self.symName, int):
+            self.value = int(self.symName)
+
+    def get_value(self):
+        return self.value
 
     def __add__(self, value):
         if value.isVar is True:
@@ -66,7 +76,7 @@ class Symbol:
 
     def __lshift__(self, other):
 
-        if self.symType is type(self):      # Function or variable or expression involving symbol
+        if self.symType is type(self):  # Function or variable or expression involving symbol
 
             if other.isVar is True:
                 self.symName = str(self.symName) + "(" + str(other.symName) + ")"
