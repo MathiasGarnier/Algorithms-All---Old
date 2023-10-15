@@ -32,6 +32,7 @@ class GetLaurentSeriesPP(Symbol):       # PP for Principal Part
         print(type(self.F))
         if self.F.degree() == 0:
             return
-
+            
+        # Need an implementation of differential fields to be finished.
         E = self.D / (self.F**self.n)   # problem at that time, need a better implementation of power operator
 
