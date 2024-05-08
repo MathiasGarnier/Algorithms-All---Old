@@ -6,32 +6,6 @@ import matplotlib.animation as animation
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 """
 import warnings
 import functools
