@@ -307,6 +307,21 @@ def runLaxFriedrichScheme(mesh, time_mesh):
     plt.plot(time_mesh, conservation_nb_voiture)
     plt.show()
 
+
+####################
+#                  #
+# CE QUE L'ON VEUT #      En utilisant toutes les fonctions précédemment définies, on
+#                  #      affiche ce qui nous intéresse
+####################
+
+#chocs_methode_carac()
+runLaxFriedrichScheme(mesh, time_mesh) # un double feu rouge, utiliser les options pour le modifier
+
+
+
+
+
+#godunov()
 ######################
 # MÉTHODE DE GODUNOV #      
 # (NE MARCHE PAS...) #      DOMMAGE
@@ -315,6 +330,8 @@ def runLaxFriedrichScheme(mesh, time_mesh):
 def godunov():
     # On suit essentiellement https://pure.tue.nl/ws/portalfiles/portal/46911278
     # Mais cette partie ne marche pas donc grosse déception.
+    # on pense qu'il ne faut pas modifier grand chose
+    # plus la précision est augmentée (plus le calcul est long et) moins il y a d'instabilités 
 
     riemMesh = np.linspace(-road_size / 2, road_size / 2, nb_cells)
     riemTime = np.linspace(0, time_length, nb_time_cells)
@@ -516,13 +533,3 @@ def godunov():
     #ani = animation.FuncAnimation(fig, animate, repeat=True, frames=len(riemMesh) - 1, interval=1)
     #plt.plot(riemMesh, initial_solution(riemMesh), color="gray")
     plt.show()
-
-####################
-#                  #
-# CE QUE L'ON VEUT #      En utilisant toutes les fonctions précédemment définies, on
-#                  #      affiche ce qui nous intéresse
-####################
-
-#chocs_methode_carac()
-runLaxFriedrichScheme(mesh, time_mesh)
-#godunov()
