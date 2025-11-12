@@ -1,0 +1,21 @@
+induction m with d hd
+rw [add_zero]
+rw [mul_zero]
+rfl
+rw [mul_succ]
+--rw [hd]
+--rw [succ_eq_add_one]
+--rw [← add_assoc]
+--rw [add_comm d 1]
+rw [add_succ]
+rw [succ_add]
+rw [← hd]
+rw [succ_eq_add_one]
+rw [succ_eq_add_one]
+rw [add_assoc]
+rw [one_eq_succ_zero]
+rw [add_succ]
+rw [← one_eq_succ_zero]
+rw [add_zero]
+rw [← two_eq_succ_one]
+rfl
