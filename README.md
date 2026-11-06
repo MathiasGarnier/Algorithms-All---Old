@@ -1,3 +1,2 @@
-# Java-Test
-This repository is for minecraft plugin test ;)
-Java test repository !
+# Test-Cpp-C-All
+Repository of C++ &amp;&amp; C test ^^ ;)
